@@ -31,6 +31,461 @@ jQuery(document).ready(function($) {
 		// }
 	// END COLOURS ON TIME
 
+	// RANDOM SHUFFLE FOR QUESTIONS EXPERIENCE
+		function shuffle(array) {
+			var m = array.length, t, i;
+
+			// While there remain elements to shuffle…
+			while (m) {
+
+				// Pick a remaining element…
+				i = Math.floor(Math.random() * m--);
+
+				// And swap it with the current element.
+				t = array[m];
+				array[m] = array[i];
+				array[i] = t;
+			}
+
+			return array;
+		}
+
+		var randomClient = [0,1,2,3,4,5,6,7];
+		var randomTalent = [0,1,2,3,4,5,6,7];
+
+		shuffle(randomClient);
+		shuffle(randomTalent);
+
+		var selectedClientQAC1 = randomClient[0];
+		var selectedClientQAC2 = randomClient[1];
+
+		var selectedTalentQAC1 = randomTalent[0];
+		var selectedTalentQAC2 = randomTalent[1];
+
+		function checkRandomOrder(){
+			// for (var i = 0; i < randomClient.length; i++) {
+			// 	console.log('i count: ' + i + ' Random Client: ' + randomClient[i]);
+			// };
+
+			// for (var i = 0; i < randomTalent.length; i++) {
+			// 	console.log('i count: ' + i + ' Random Talent: ' + randomTalent[i]);
+			// };
+
+			console.log("Selected as Client Question 1: " + (selectedClientQAC1 + 1) );
+			console.log("Selected as Client Question 2: " + (selectedClientQAC2 + 1) );
+
+			console.log("Selected as Talent Question 1: " + (selectedTalentQAC1 + 1) );
+			console.log("Selected as Talent Question 2: " + (selectedTalentQAC2 + 1) );
+		}
+
+		checkRandomOrder();
+	// END RANDOM SHUFFLE
+
+	// SET PACK OF QUESTIONS, ANSWERS AND COPIES
+		// DECLARE QUESTIONS, ANSWERS AND CONTINUE COPIES VARIABLES
+			// Questions Variables
+				var clientQ1, clientQ2, clientQ3, clientQ4, clientQ5, clientQ6, clientQ7, clientQ8, talentQ1, talentQ2, talentQ3, talentQ4, talentQ5, talentQ6, talentQ7, talentQ8; 
+
+			// Answers Variables
+				var clientA1, clientA2, clientA3, clientA4, clientA5, clientA6, clientA7, clientA8, talentA1, talentA2, talentA3, talentA4, talentA5, talentA6, talentA7, talentA8;
+
+			// Continue Copys Variables
+				var clientC1, clientC2, clientC3, clientC4, clientC5, clientC6, clientC7, clientC8, talentC1, talentC2, talentC3, talentC4, talentC5, talentC6, talentC7, talentC8;
+		// END DECLARING Q, A & C VARIABLES
+
+
+
+		// CLIENT QUESTION PACK
+			// QUESTION 1
+				clientQ1 = '1. ¿?';
+				// ANSWER
+				clientA1 = '1. Te recomendamos.';
+				// CONTINUE COPY
+				clientC1 = '1. Descúbrenos.';
+			// END QUESTION 1
+
+			// QUESTION 2
+				clientQ2 = '2. ¿?';
+				// ANSWER
+				clientA2 = '2. Te recomendamos.';
+				// CONTINUE COPY
+				clientC2 = '2. Descúbrenos.';
+			// END QUESTION 2
+
+			// QUESTION 3
+				clientQ3 = '3. ¿?';
+				// ANSWER
+				clientA3 = '3. Te recomendamos.';
+				// CONTINUE COPY
+				clientC3 = '3. Descúbrenos.';
+			// END QUESTION 3
+
+			// QUESTION 4
+				clientQ4 = '4. ¿?';
+				// ANSWER
+				clientA4 = '4. Te recomendamos.';
+				// CONTINUE COPY
+				clientC4 = '4. Descúbrenos.';
+			// END QUESTION 4
+
+			// QUESTION 5
+				clientQ5 = '5. ¿?';
+				// ANSWER
+				clientA5 = '5. Te recomendamos.';
+				// CONTINUE COPY
+				clientC5 = '5. Descúbrenos.';
+			// END QUESTION 5
+
+			// QUESTION 6
+				clientQ6 = '6. ¿?';
+				// ANSWER
+				clientA6 = '6. Te recomendamos.';
+				// CONTINUE COPY
+				clientC6 = '6. Descúbrenos.';
+			// END QUESTION 6
+
+			// QUESTION 7
+				clientQ7 = '7. ¿?';
+				// ANSWER
+				clientA7 = '7. Te recomendamos.';
+				// CONTINUE COPY
+				clientC7 = '7. Descúbrenos.';
+			// END QUESTION 7
+
+			// QUESTION 8
+				clientQ8 = '8. ¿?';
+				// ANSWER
+				clientA8 = '8. Te recomendamos.';
+				// CONTINUE COPY
+				clientC8 = '8. Descúbrenos.';
+			// END QUESTION 8
+		// END CLIENT QUESTION PACK
+
+		// TALENT QUESTION PACK
+			// QUESTION 1
+				talentQ1 = '1. ¿?';
+				// ANSWER
+				talentA1 = '1. Te recomendamos.';
+				// CONTINUE COPY
+				talentC1 = '1. Descúbrenos.';
+			// END QUESTION 1
+
+			// QUESTION 2
+				talentQ2 = '2. ¿?';
+				// ANSWER
+				talentA2 = '2. Te recomendamos.';
+				// CONTINUE COPY
+				talentC2 = '2. Descúbrenos.';
+			// END QUESTION 2
+
+			// QUESTION 3
+				talentQ3 = '3. ¿?';
+				// ANSWER
+				talentA3 = '3. Te recomendamos.';
+				// CONTINUE COPY
+				talentC3 = '3. Descúbrenos.';
+			// END QUESTION 3
+
+			// QUESTION 4
+				talentQ4 = '4. ¿?';
+				// ANSWER
+				talentA4 = '4. Te recomendamos.';
+				// CONTINUE COPY
+				talentC4 = '4. Descúbrenos.';
+			// END QUESTION 4
+
+			// QUESTION 5
+				talentQ5 = '5. ¿?';
+				// ANSWER
+				talentA5 = '5. Te recomendamos.';
+				// CONTINUE COPY
+				talentC5 = '5. Descúbrenos.';
+			// END QUESTION 5
+
+			// QUESTION 6
+				talentQ6 = '6. ¿?';
+				// ANSWER
+				talentA6 = '6. Te recomendamos.';
+				// CONTINUE COPY
+				talentC6 = '6. Descúbrenos.';
+			// END QUESTION 6
+
+			// QUESTION 7
+				talentQ7 = '7. ¿?';
+				// ANSWER
+				talentA7 = '7. Te recomendamos.';
+				// CONTINUE COPY
+				talentC7 = '7. Descúbrenos.';
+			// END QUESTION 7
+
+			// QUESTION 8
+				talentQ8 = '8. ¿?';
+				// ANSWER
+				talentA8 = '8. Te recomendamos.';
+				// CONTINUE COPY
+				talentC8 = '8. Descúbrenos.';
+			// END QUESTION 8
+		// END TALENT QUESTION PACK
+
+
+
+		// INSERTING QUESTIONS AND ANSWERS
+			var questionsClient = [clientQ1,clientQ2,clientQ3,clientQ4,clientQ5,clientQ6,clientQ7,clientQ8];
+			var questionsTalent = [talentQ1,talentQ2,talentQ3,talentQ4,talentQ5,talentQ6,talentQ7,talentQ8];
+
+			var answersClient = [clientA1,clientA2,clientA3,clientA4,clientA5,clientA6,clientA7,clientA8];
+			var answersTalent = [talentA1,talentA2,talentA3,talentA4,talentA5,talentA6,talentA7,talentA8];
+
+			var copiesClient = [clientC1,clientC2,clientC3,clientC4,clientC5,clientC6,clientC7,clientC8];
+			var copiesTalent = [talentC1,talentC2,talentC3,talentC4,talentC5,talentC6,talentC7,talentC8];
+		// END INSERTING QUESTIONS AND ANSWERS
+	// END SET PACK OF QUESTIONS, ANSWERS AND COPIES
+
+
+	// SET HEIGHT CLASSES FOR QUESTIONS AND ANSWERS
+		// DECLARING HEIGHT VARIABLES
+			// Questions Variables
+			var heightClientQ1, heightClientQ2, heightClientQ3, heightClientQ4, heightClientQ5, heightClientQ6, heightClientQ7, heightClientQ8, heightTalentQ1, heightTalentQ2, heightTalentQ3, heightTalentQ4, heightTalentQ5, heightTalentQ6, heightTalentQ7, heightTalentQ8; 
+
+			// Answers Variables
+			var heightClientA1, heightClientA2, heightClientA3, heightClientA4, heightClientA5, heightClientA6, heightClientA7, heightClientA8, heightTalentA1, heightTalentA2, heightTalentA3, heightTalentA4, heightTalentA5, heightTalentA6, heightTalentA7, heightTalentA8;
+		// END DECLARING HEIGHT VARIABLES
+
+
+		// CLASSES PACKS
+			// HEIGHT CLIENT PACK
+				// HEIGHT CLIENT 1
+					heightClientQ1 = 'oneLineInfoMaster';
+					heightClientA1 = 'oneLineInfoMaster';
+				// END HEIGHT CLIENT 1
+
+				// HEIGHT CLIENT 2
+					heightClientQ2 = 'oneLineInfoMaster';
+					heightClientA2 = 'oneLineInfoMaster';
+				// END HEIGHT CLIENT 2
+
+				// HEIGHT CLIENT 3
+					heightClientQ3 = 'oneLineInfoMaster';
+					heightClientA3 = 'oneLineInfoMaster';
+				// END HEIGHT CLIENT 3
+
+				// HEIGHT CLIENT 4
+					heightClientQ4 = 'oneLineInfoMaster';
+					heightClientA4 = 'oneLineInfoMaster';
+				// END HEIGHT CLIENT 4
+
+				// HEIGHT CLIENT 5
+					heightClientQ5 = 'oneLineInfoMaster';
+					heightClientA5 = 'oneLineInfoMaster';
+				// END HEIGHT CLIENT 5
+
+				// HEIGHT CLIENT 6
+					heightClientQ6 = 'oneLineInfoMaster';
+					heightClientA6 = 'oneLineInfoMaster';
+				// END HEIGHT CLIENT 6
+
+				// HEIGHT CLIENT 7
+					heightClientQ7 = 'oneLineInfoMaster';
+					heightClientA7 = 'oneLineInfoMaster';
+				// END HEIGHT CLIENT 7
+
+				// HEIGHT CLIENT 8
+					heightClientQ8 = 'oneLineInfoMaster';
+					heightClientA8 = 'oneLineInfoMaster';
+				// END HEIGHT CLIENT 8
+			// END HEIGHT CLIENT PACK
+
+			// HEIGHT TALENT PACK
+				// HEIGHT TALENT 1
+					heightTalentQ1 = 'oneLineInfoMaster';
+					heightTalentA1 = 'oneLineInfoMaster';
+				// END HEIGHT TALENT 1
+
+				// HEIGHT TALENT 2
+					heightTalentQ2 = 'oneLineInfoMaster';
+					heightTalentA2 = 'oneLineInfoMaster';
+				// END HEIGHT TALENT 2
+
+				// HEIGHT TALENT 3
+					heightTalentQ3 = 'oneLineInfoMaster';
+					heightTalentA3 = 'oneLineInfoMaster';
+				// END HEIGHT TALENT 3
+
+				// HEIGHT TALENT 4
+					heightTalentQ4 = 'oneLineInfoMaster';
+					heightTalentA4 = 'oneLineInfoMaster';
+				// END HEIGHT TALENT 4
+
+				// HEIGHT TALENT 5
+					heightTalentQ5 = 'oneLineInfoMaster';
+					heightTalentA5 = 'oneLineInfoMaster';
+				// END HEIGHT TALENT 5
+
+				// HEIGHT TALENT 6
+					heightTalentQ6 = 'oneLineInfoMaster';
+					heightTalentA6 = 'oneLineInfoMaster';
+				// END HEIGHT TALENT 6
+
+				// HEIGHT TALENT 7
+					heightTalentQ7 = 'oneLineInfoMaster';
+					heightTalentA7 = 'oneLineInfoMaster';
+				// END HEIGHT TALENT 7
+
+				// HEIGHT TALENT 8
+					heightTalentQ8 = 'oneLineInfoMaster';
+					heightTalentA8 = 'oneLineInfoMaster';
+				// END HEIGHT TALENT 8
+			// END HEIGHT TALENT PACK
+		// END CLASSES PACKS
+
+
+		// INSERTING HEIGHT CLASSES
+			var heightClientQuestions = [heightClientQ1, heightClientQ2, heightClientQ3, heightClientQ4, heightClientQ5, heightClientQ6, heightClientQ7, heightClientQ8];
+			var heightTalentQuestions = [heightTalentQ1, heightTalentQ2, heightTalentQ3, heightTalentQ4, heightTalentQ5, heightTalentQ6, heightTalentQ7, heightTalentQ8];
+
+			var heightClientAnswers = [heightClientA1, heightClientA2, heightClientA3, heightClientA4, heightClientA5, heightClientA6, heightClientA7, heightClientA8];
+			var heightTalentAnswers = [heightTalentA1, heightTalentA2, heightTalentA3, heightTalentA4, heightTalentA5, heightTalentA6, heightTalentA7, heightTalentA8];
+		// END INSERTING HEIGHT CLASSES
+	// END SET HEIGHT CLASSES FOR QUESTIONS AND ANSWERS
+
+
+
+	// SET AGENCIES PACKS
+		// DECLARE AGENCIES NAME AND CONTACT DATA VARIABLES
+			// DECLARE AGENCIES NAME VARIABLES
+			var agencyName1,agencyName2,agencyName3,agencyName4,agencyName5,agencyName6,agencyName7,agencyName8,agencyName9,agencyName10,agencyName11,agencyName12,agencyName13,agencyName14,agencyName15,agencyName16,agencyName17,agencyName18,agencyName19,agencyName20,agencyName21,agencyName22,agencyName23,agencyName24;
+
+				
+			// DECLARE AGENCIES DATA VARIABLES
+			var agencyData1,agencyData2,agencyData3,agencyData4,agencyData5,agencyData6,agencyData7,agencyData8,agencyData9,agencyData10,agencyData11,agencyData12,agencyData13,agencyData14,agencyData15,agencyData16,agencyData17,agencyData18,agencyData19,agencyData20,agencyData21,agencyData22,agencyData23,agencyData24;
+		// END DECLARE AGENCIES NAME AND CONTACT DATA VARIABLES
+
+			
+		// AGENCIES INFO: NAME AND CONTACT DATA
+			// AGENCY 1
+			agencyName1 = '1. Agency Name';
+			agencyData1 = '1. Agency Data';
+
+			// AGENCY 2
+			agencyName2 = '2. Agency Name';
+			agencyData2 = '2. Agency Data';
+
+			// AGENCY 3
+			agencyName3 = '3. Agency Name';
+			agencyData3 = '3. Agency Data';
+
+			// AGENCY 4
+			agencyName4 = '4. Agency Name';
+			agencyData4 = '4. Agency Data';
+
+			// AGENCY 5
+			agencyName5 = '5. Agency Name';
+			agencyData5 = '5. Agency Data';
+
+			// AGENCY 6
+			agencyName6 = '6. Agency Name';
+			agencyData6 = '6. Agency Data';
+
+			// AGENCY 7
+			agencyName7 = '7. Agency Name';
+			agencyData7 = '7. Agency Data';
+
+			// AGENCY 8
+			agencyName8 = '8. Agency Name';
+			agencyData8 = '8. Agency Data';
+
+			// AGENCY 9
+			agencyName9 = '9. Agency Name';
+			agencyData9 = '9. Agency Data';
+
+			// AGENCY 10
+			agencyName10 = '10. Agency Name';
+			agencyData10 = '10. Agency Data';
+
+			// AGENCY 11
+			agencyName11 = '11. Agency Name';
+			agencyData11 = '11. Agency Data';
+
+			// AGENCY 12
+			agencyName12 = '12. Agency Name';
+			agencyData12 = '12. Agency Data';
+
+			// AGENCY 13
+			agencyName13 = '13. Agency Name';
+			agencyData13 = '13. Agency Data';
+
+			// AGENCY 14
+			agencyName14 = '14. Agency Name';
+			agencyData14 = '14. Agency Data';
+
+			// AGENCY 15
+			agencyName15 = '15. Agency Name';
+			agencyData15 = '15. Agency Data';
+
+			// AGENCY 16
+			agencyName16 = '16. Agency Name';
+			agencyData16 = '16. Agency Data';
+
+			// AGENCY 17
+			agencyName17 = '17. Agency Name';
+			agencyData17 = '17. Agency Data';
+
+			// AGENCY 18
+			agencyName18 = '18. Agency Name';
+			agencyData18 = '18. Agency Data';
+
+			// AGENCY 19
+			agencyName19 = '19. Agency Name';
+			agencyData19 = '19. Agency Data';
+
+			// AGENCY 20
+			agencyName20 = '20. Agency Name';
+			agencyData20 = '20. Agency Data';
+
+			// AGENCY 21
+			agencyName21 = '21. Agency Name';
+			agencyData21 = '21. Agency Data';
+
+			// AGENCY 22
+			agencyName22 = '22. Agency Name';
+			agencyData22 = '22. Agency Data';
+
+			// AGENCY 23
+			agencyName23 = '23. Agency Name';
+			agencyData23 = '23. Agency Data';
+
+			// AGENCY 24
+			agencyName24 = '24. Agency Name';
+			agencyData24 = '24. Agency Data';
+		// END AGENCIES INFO
+		
+
+		// INSERT AGENCIES NAMES AND DATA
+			var agenciesName = [agencyName1,agencyName2,agencyName3,agencyName4,agencyName5,agencyName6,agencyName7,agencyName8,agencyName9,agencyName10,agencyName11,agencyName12,agencyName13,agencyName14,agencyName15,agencyName16,agencyName17,agencyName18,agencyName19,agencyName20,agencyName21,agencyName22,agencyName23,agencyName24];
+
+			var agenciesData = [agencyData1,agencyData2,agencyData3,agencyData4,agencyData5,agencyData6,agencyData7,agencyData8,agencyData9,agencyData10,agencyData11,agencyData12,agencyData13,agencyData14,agencyData15,agencyData16,agencyData17,agencyData18,agencyData19,agencyData20,agencyData21,agencyData22,agencyData23,agencyData24];
+		
+
+			var topClientAgenciesNames 	  = [agenciesName[0], agenciesName[3], agenciesName[6], agenciesName[9], agenciesName[12]];
+			var centerClientAgenciesNames = [agenciesName[1], agenciesName[4], agenciesName[7], agenciesName[10], agenciesName[13]];
+			var bottomClientAgenciesNames = [agenciesName[2], agenciesName[5], agenciesName[8], agenciesName[11], agenciesName[14]];
+
+			var topClientAgenciesData 	 = [agenciesData[0], agenciesData[3], agenciesData[6], agenciesData[9], agenciesData[12]];
+			var centerClientAgenciesData = [agenciesData[1], agenciesData[4], agenciesData[7], agenciesData[10], agenciesData[13]];
+			var bottomClientAgenciesData = [agenciesData[2], agenciesData[5], agenciesData[8], agenciesData[11], agenciesData[14]];
+
+
+			var topTalentAgenciesNames 	  = [agenciesName[13], agenciesName[2], agenciesName[4], agenciesName[15]];
+			var centerTalentAgenciesNames = [agenciesName[4], agenciesName[1], agenciesName[5], agenciesName[2]];
+			var bottomTalentAgenciesNames = [agenciesName[1], agenciesName[0], agenciesName[3], agenciesName[3]];
+
+			var topTalentAgenciesData 	 = [agenciesData[13], agenciesData[2], agenciesData[4], agenciesData[15]];
+			var centerTalentAgenciesData = [agenciesData[4], agenciesData[1], agenciesData[5], agenciesData[2]];
+			var bottomTalentAgenciesData = [agenciesData[1], agenciesData[0], agenciesData[3], agenciesData[3]];
+		// END INSERT AGENCIES NAMES AND DATA
+	// END SET AGENCIES PACKS
+
+
 
 	// NAVIGATION FLOW
 		// LABEL BUTTON RESET FULL PAGE
@@ -61,6 +516,8 @@ jQuery(document).ready(function($) {
 
 							$('#welcomePage').addClass('notHere');
 							$('#whoRUOptions').addClass('notHere');
+
+							masterInsertQAC('#clientFirstQuestion', questionsClient, heightClientQuestions, selectedClientQAC1);
 
 							masterShowElement($('#clientFirstQuestion'),200);
 							masterShowElement($('#clientFirstOption1'),600);
@@ -114,6 +571,8 @@ jQuery(document).ready(function($) {
 							$('#welcomePage').addClass('notHere');
 							$('#whoRUOptions').addClass('notHere');
 
+							masterInsertQAC('#talentFirstQuestion', questionsTalent, heightTalentQuestions, selectedTalentQAC1);
+
 							masterShowElement($('#talentFirstQuestion'),200);
 							masterShowElement($('#talentFirstOption1'),600);
 							masterShowElement($('#talentFirstOption2'),800);
@@ -161,8 +620,6 @@ jQuery(document).ready(function($) {
 					},800);
 				}
 			});
-
-
 		// END MENU
 
 
@@ -203,6 +660,8 @@ jQuery(document).ready(function($) {
 					masterHideElement($('#whoRUOption1'),400);
 					masterHideElement($('#whoRUQuestion'),600);
 
+					masterInsertQAC('#clientFirstQuestion', questionsClient, heightClientQuestions, selectedClientQAC1);
+
 					setTimeout(function(){
 						$('#whoRUOptions').addClass('notHere');
 
@@ -219,6 +678,8 @@ jQuery(document).ready(function($) {
 							masterHideElement($('#clientFirstOption2'),0);
 							masterHideElement($('#clientFirstOption1'),200);
 							masterHideElement($('#clientFirstQuestion'),450);
+
+							masterInsertQAC('#clientFirstAdvice', answersClient, heightClientAnswers, selectedClientQAC1);
 
 							setTimeout(function(){
 								masterShowElement($('#clientFirstAdvice'),600);
@@ -238,6 +699,8 @@ jQuery(document).ready(function($) {
 								masterHideElement($('#clientFirstAgency1'),500);
 								masterHideElement($('#clientFirstAdvice'),650);
 
+								masterInsertQAC('#clientSecondQuestion', questionsClient, heightClientQuestions, selectedClientQAC2);
+
 								setTimeout(function(){
 									masterShowElement($('#clientSecondQuestion'),0);
 									masterShowElement($('#clientSecondOption1'),400);
@@ -251,6 +714,8 @@ jQuery(document).ready(function($) {
 							masterHideElement($('#clientFirstOption2'),0);
 							masterHideElement($('#clientFirstOption1'),200);
 							masterHideElement($('#clientFirstQuestion'),450);
+
+							masterInsertQAC('#clientSecondQuestion', questionsClient, heightClientQuestions, selectedClientQAC2);
 
 							setTimeout(function(){
 								masterShowElement($('#clientSecondQuestion'),0);
@@ -268,6 +733,8 @@ jQuery(document).ready(function($) {
 							masterHideElement($('#clientSecondOption2'),0);
 							masterHideElement($('#clientSecondOption1'),200);
 							masterHideElement($('#clientSecondQuestion'),450);
+
+							masterInsertQAC('#clientSecondAdvice', answersClient, heightClientAnswers, selectedClientQAC2);
 
 							setTimeout(function(){
 								masterShowElement($('#clientSecondAdvice'),600);
@@ -288,9 +755,8 @@ jQuery(document).ready(function($) {
 								masterHideElement($('#clientSecondAdvice'),650);
 
 								setTimeout(function(){
-									masterShowElement($('#clientThirdQuestion'),0);
-									masterShowElement($('#clientThirdOption1'),400);
-									masterShowElement($('#clientThirdOption2'),600);
+									masterShowElement($('#clientSuccessQuestion'),0);
+									masterShowElement($('#clientSuccessOption1'),200);
 								},1100);
 							});
 						// END A)1) NEXT
@@ -302,60 +768,13 @@ jQuery(document).ready(function($) {
 							masterHideElement($('#clientSecondQuestion'),450);
 
 							setTimeout(function(){
-								masterShowElement($('#clientThirdQuestion'),0);
-								masterShowElement($('#clientThirdOption1'),400);
-								masterShowElement($('#clientThirdOption2'),600);
+								masterShowElement($('#clientSuccessQuestion'),0);
+								masterShowElement($('#clientSuccessOption1'),200);
 							},850);
 						});
 					// END B) NOT AFRAID
 				// END SECOND QUESTION FLOW
 
-
-				// THIRD QUESTION FLOW
-					// A) I'D RATHER PERSONAL NAMES AGENCIES
-						$('#clientThirdYes').click(function() {
-							masterHideElement($('#clientThirdOption2'),0);
-							masterHideElement($('#clientThirdOption1'),200);
-							masterHideElement($('#clientThirdQuestion'),450);
-
-							setTimeout(function(){
-								masterShowElement($('#clientThirdAdvice'),600);
-								masterShowElement($('#clientThirdNext'),700);
-								masterShowElement($('#clientThirdAgency1'),750);
-								masterShowElement($('#clientThirdAgency2'),950);
-								masterShowElement($('#clientThirdAgency3'),1150);
-							},100);
-						});
-					// END A) I'D RATHER PERSONAL NAMES AGENCIES
-
-						// A)1) NEXT SLIDE
-							$('#clientThirdNext').click(function() {
-								masterHideElement($('#clientThirdNext'),0);
-								masterHideElement($('#clientThirdAgency3'),100);
-								masterHideElement($('#clientThirdAgency2'),300);
-								masterHideElement($('#clientThirdAgency1'),500);
-								masterHideElement($('#clientThirdAdvice'),650);
-
-								setTimeout(function(){
-									masterShowElement($('#clientSuccessQuestion'),0);
-									masterShowElement($('#clientSuccessOption1'),200);
-								},1100);
-							});
-						// END A)1) NEXT
-
-					// B) I DON'T CARE THE NAME OF THE AGENCIES
-						$('#clientThirdNo').click(function() {
-							masterHideElement($('#clientThirdOption2'),0);
-							masterHideElement($('#clientThirdOption1'),200);
-							masterHideElement($('#clientThirdQuestion'),450);
-
-							setTimeout(function(){
-								masterShowElement($('#clientSuccessQuestion'),0);
-								masterShowElement($('#clientSuccessOption1'),200);
-							},850);
-						});
-					// END B) I DON'T CARE THE NAME OF THE AGENCIES
-				// END THIRD QUESTION FLOW
 
 
 				// SUCCESS QUESTION FLOW
@@ -448,8 +867,9 @@ jQuery(document).ready(function($) {
 							masterHideElement($('#competitionFirstQuestion'),450);
 
 							setTimeout(function(){
-								masterShowElement($('#competitionFirstAdvice'),0);
-								masterShowElement($('#competitionAnywayOption1'),100);
+								masterShowElement($('#talentFirstQuestion'),0);
+								masterShowElement($('#talentFirstOption1'),150);
+								masterShowElement($('#talentFirstOption2'),300);
 							},700);
 						});
 					// END A) NOT ENOUGH
@@ -477,6 +897,8 @@ jQuery(document).ready(function($) {
 					masterHideElement($('#whoRUOption1'),400);
 					masterHideElement($('#whoRUQuestion'),600);
 
+					masterInsertQAC('#talentFirstQuestion', questionsTalent, heightTalentQuestions, selectedTalentQAC1);
+
 					setTimeout(function(){
 						$('#whoRUOptions').addClass('notHere');
 
@@ -494,6 +916,8 @@ jQuery(document).ready(function($) {
 						masterHideElement($('#talentFirstOption1'),200);
 						masterHideElement($('#talentFirstQuestion'),450);
 
+						masterInsertQAC('#talentSecondQuestion', questionsTalent, heightTalentQuestions, selectedTalentQAC2);
+
 						setTimeout(function(){
 							masterShowElement($('#talentSecondQuestion'),0);
 							masterShowElement($('#talentSecondOption1'),400);
@@ -507,6 +931,8 @@ jQuery(document).ready(function($) {
 						masterHideElement($('#talentFirstOption2'),0);
 						masterHideElement($('#talentFirstOption1'),200);
 						masterHideElement($('#talentFirstQuestion'),450);
+
+						masterInsertQAC('#talentFirstAdvice', answersTalent, heightTalentAnswers, selectedTalentQAC1);
 
 						setTimeout(function(){
 							masterShowElement($('#talentFirstAdvice'),600);
@@ -526,6 +952,8 @@ jQuery(document).ready(function($) {
 							masterHideElement($('#talentFirstAgency1'),500);
 							masterHideElement($('#talentFirstAdvice'),650);
 
+							masterInsertQAC('#talentSecondQuestion', questionsTalent, heightTalentQuestions, selectedTalentQAC2);
+
 							setTimeout(function(){
 								masterShowElement($('#talentSecondQuestion'),0);
 								masterShowElement($('#talentSecondOption1'),400);
@@ -541,6 +969,8 @@ jQuery(document).ready(function($) {
 						masterHideElement($('#talentSecondOption2'),0);
 						masterHideElement($('#talentSecondOption1'),200);
 						masterHideElement($('#talentSecondQuestion'),450);
+
+						masterInsertQAC('#talentSecondAdvice', answersTalent, heightTalentAnswers, selectedTalentQAC2);
 
 						setTimeout(function(){
 							masterShowElement($('#talentSecondAdvice'),600);
@@ -561,9 +991,9 @@ jQuery(document).ready(function($) {
 							masterHideElement($('#talentSecondAdvice'),650);
 
 							setTimeout(function(){
-								masterShowElement($('#talentThirdQuestion'),0);
-								masterShowElement($('#talentThirdOption1'),400);
-								masterShowElement($('#talentThirdOption2'),600);
+								masterShowElement($('#talentSuccessQuestion'),0);
+								masterShowElement($('#talentSuccessOption1'),200);
+								masterShowElement($('#talentSuccessOption2'),400);
 							},1100);
 						});
 					// END A)1) END NEXT SLIDE
@@ -575,61 +1005,14 @@ jQuery(document).ready(function($) {
 						masterHideElement($('#talentSecondQuestion'),450);
 
 						setTimeout(function(){
-							masterShowElement($('#talentThirdQuestion'),0);
-							masterShowElement($('#talentThirdOption1'),400);
-							masterShowElement($('#talentThirdOption2'),600);
-						},850);
-					});
-				// END B) I WILL STAY, I'M PASSIONATE
-			// END SECOND QUESTION FLOW
-
-			// THIRD QUESTION FLOW
-				// A) I'M OLDER THAN 30
-					$('#talentThirdYes').click(function() {
-						masterHideElement($('#talentThirdOption2'),0);
-						masterHideElement($('#talentThirdOption1'),200);
-						masterHideElement($('#talentThirdQuestion'),450);
-
-						setTimeout(function(){
-							masterShowElement($('#talentThirdAdvice'),600);
-							masterShowElement($('#talentThirdNext'),700);
-							masterShowElement($('#talentThirdAgency1'),750);
-							masterShowElement($('#talentThirdAgency2'),950);
-							masterShowElement($('#talentThirdAgency3'),1150);
-						},100);
-					});
-				// END A) I'M OLDER THAN 30
-
-					// A)1) NEXT SLIDE
-						$('#talentThirdNext').click(function() {
-							masterHideElement($('#talentThirdNext'),0);
-							masterHideElement($('#talentThirdAgency3'),100);
-							masterHideElement($('#talentThirdAgency2'),300);
-							masterHideElement($('#talentThirdAgency1'),500);
-							masterHideElement($('#talentThirdAdvice'),650);
-
-							setTimeout(function(){
-								masterShowElement($('#talentSuccessQuestion'),0);
-								masterShowElement($('#talentSuccessOption1'),200);
-								masterShowElement($('#talentSuccessOption2'),400);
-							},1100);
-						});
-					// END A)1) END NEXT SLIDE
-
-				// B) I'M STILL YOUNG
-					$('#talentThirdNo').click(function() {
-						masterHideElement($('#talentThirdOption2'),0);
-						masterHideElement($('#talentThirdOption1'),200);
-						masterHideElement($('#talentThirdQuestion'),450);
-
-						setTimeout(function(){
 							masterShowElement($('#talentSuccessQuestion'),0);
 							masterShowElement($('#talentSuccessOption1'),200);
 							masterShowElement($('#talentSuccessOption2'),400);
 						},850);
 					});
-				// END B) I'M STILL YOUNG
-			// END THIRD QUESTION FLOW
+				// END B) I WILL STAY, I'M PASSIONATE
+			// END SECOND QUESTION FLOW
+
 
 			// TALENT SUCCESS QUESTION FLOW
 				// I'D PREFER DOBLADA
@@ -710,7 +1093,6 @@ jQuery(document).ready(function($) {
 							},600);
 						});
 					// END CLICK TO GO BACK TO VIDEO
-
 			// END TALENT SUCCESS FLOW 
 		// END TALENT FLOW
 
@@ -754,7 +1136,18 @@ jQuery(document).ready(function($) {
 					$('.innerStartWeb').removeClass('pushStartWeb');
 				},700);
 
+				// SHUFFLE QUESTIONS ANSWERS AND COPIES AGAIN
+					shuffle(randomClient);
+					shuffle(randomTalent);
+					checkRandomOrder();
+				// END SHUFFLE AGAIN
+
 				// RESET CLIENT FLOW
+					// RESET CLIENT BOXES
+					masterRemoveQAC('#clientFirstQuestion');
+					masterRemoveQAC('#clientFirstAdvice');
+					masterRemoveQAC('#clientSecondQuestion');
+					masterRemoveQAC('#clientSecondAdvice');
 
 					// RESET CLIENT FIRST QUESTION FLOW: CONNECT?
 					masterHideElement($('#clientFirstOption2'),0);
@@ -780,19 +1173,6 @@ jQuery(document).ready(function($) {
 					masterHideElement($('#clientSecondAgency1'),200);
 					masterHideElement($('#clientSecondNext'),300);
 					masterHideElement($('#clientSecondAdvice'),450);
-
-
-					// RESET CLIENT THIRD QUESTION: PERSONAL NAMES?
-					masterHideElement($('#clientThirdOption2'),0);
-					masterHideElement($('#clientThirdOption1'),200);
-					masterHideElement($('#clientThirdQuestion'),350);
-
-					// RESET CLIENT THIRD ADVICE AGENCIES
-					masterHideElement($('#clientThirdAgency3'),0);
-					masterHideElement($('#clientThirdAgency2'),100);
-					masterHideElement($('#clientThirdAgency1'),200);
-					masterHideElement($('#clientThirdNext'),300);
-					masterHideElement($('#clientThirdAdvice'),450);
 
 
 					// RESET CLIENT SUCCESS QUESTION: WANNA FLY?
@@ -839,6 +1219,11 @@ jQuery(document).ready(function($) {
 				// END RESET COMPETITION
 
 				// RESET TALENT FLOW
+					// RESET TALENT BOXES
+					masterRemoveQAC('#talentFirstQuestion');
+					masterRemoveQAC('#talentFirstAdvice');
+					masterRemoveQAC('#talentSecondQuestion');
+					masterRemoveQAC('#talentSecondAdvice');
 
 					// RESET TALENT FIRST QUESTION FLOW: DO YOU DRINK?
 					masterHideElement($('#talentFirstOption2'),0);
@@ -864,19 +1249,6 @@ jQuery(document).ready(function($) {
 					masterHideElement($('#talentSecondAgency1'),450);
 					masterHideElement($('#talentSecondNext'),550);
 					masterHideElement($('#talentSecondAdvice'),700);
-
-
-					// RESET TALENT THIRD QUESTION FLOW: OLDER THAN 30?
-					masterHideElement($('#talentThirdOption2'),0);
-					masterHideElement($('#talentThirdOption1'),150);
-					masterHideElement($('#talentThirdQuestion'),300);
-
-					// RESET TALENT THIRD ADVICE AGENCIES
-					masterHideElement($('#talentThirdAgency3'),150);
-					masterHideElement($('#talentThirdAgency2'),300);
-					masterHideElement($('#talentThirdAgency1'),450);
-					masterHideElement($('#talentThirdNext'),550);
-					masterHideElement($('#talentThirdAdvice'),700);
 
 
 					// RESET TALENT SUCCESS QUESTION
@@ -905,10 +1277,27 @@ jQuery(document).ready(function($) {
 
 						// APPEAR NEXT SLIDE MASTER SO YOU CAN CLICK ON IT AGAIN
 						$('#nextSlideMaster').removeClass('hidden');
-				
 				// END RESET TALENT
 			}
 		// END MASTER RESET
+
+		// MASTER INSERT/REMOVE QUESTIONS, ANSWERS AND COPIES
+			function masterInsertQAC(insideOf, theQAC, heightQAC, positionInArray){
+				$(insideOf).append(theQAC[positionInArray]);
+				$(insideOf).addClass(heightQAC[positionInArray]);
+			}
+
+			function masterRemoveQAC(insideOf){
+				$(insideOf).empty();
+				$(insideOf).removeClass('oneLineInfoMaster');
+				$(insideOf).removeClass('twoLineInfoMaster');
+				$(insideOf).removeClass('threeLineInfoMaster');
+				$(insideOf).removeClass('fourLineInfoMaster');
+				$(insideOf).removeClass('fiveLineInfoMaster');
+				$(insideOf).removeClass('sixLineInfoMaster');
+				$(insideOf).removeClass('sevenLineInfoMaster');
+			}
+		// END MASTER INSERT QAC
 	// END NAVIGATION FLOW
 
 
