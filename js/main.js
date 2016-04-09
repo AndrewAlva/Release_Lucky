@@ -97,133 +97,133 @@ jQuery(document).ready(function($) {
 
 		// CLIENT QUESTION PACK
 			// QUESTION 1
-				clientQ1 = '1. ¿?';
+				clientQ1 = '<h1>1. ¿?</h1>';
 				// ANSWER
-				clientA1 = '1. Te recomendamos.';
+				clientA1 = '<h1>1. Te recomendamos.</h1>';
 				// CONTINUE COPY
-				clientC1 = '1. Descúbrenos.';
+				clientC1 = '<h5>1. Descúbrenos.</h5>';
 			// END QUESTION 1
 
 			// QUESTION 2
-				clientQ2 = '2. ¿?';
+				clientQ2 = '<h1>2. ¿?</h1>';
 				// ANSWER
-				clientA2 = '2. Te recomendamos.';
+				clientA2 = '<h1>2. Te recomendamos.</h1>';
 				// CONTINUE COPY
-				clientC2 = '2. Descúbrenos.';
+				clientC2 = '<h5>2. Descúbrenos.</h5>';
 			// END QUESTION 2
 
 			// QUESTION 3
-				clientQ3 = '3. ¿?';
+				clientQ3 = '<h1>3. ¿?</h1>';
 				// ANSWER
-				clientA3 = '3. Te recomendamos.';
+				clientA3 = '<h1>3. Te recomendamos.</h1>';
 				// CONTINUE COPY
-				clientC3 = '3. Descúbrenos.';
+				clientC3 = '<h5>3. Descúbrenos.</h5>';
 			// END QUESTION 3
 
 			// QUESTION 4
-				clientQ4 = '4. ¿?';
+				clientQ4 = '<h1>4. ¿?</h1>';
 				// ANSWER
-				clientA4 = '4. Te recomendamos.';
+				clientA4 = '<h1>4. Te recomendamos.</h1>';
 				// CONTINUE COPY
-				clientC4 = '4. Descúbrenos.';
+				clientC4 = '<h5>4. Descúbrenos.</h5>';
 			// END QUESTION 4
 
 			// QUESTION 5
-				clientQ5 = '5. ¿?';
+				clientQ5 = '<h1>5. ¿?</h1>';
 				// ANSWER
-				clientA5 = '5. Te recomendamos.';
+				clientA5 = '<h1>5. Te recomendamos.</h1>';
 				// CONTINUE COPY
-				clientC5 = '5. Descúbrenos.';
+				clientC5 = '<h5>5. Descúbrenos.</h5>';
 			// END QUESTION 5
 
 			// QUESTION 6
-				clientQ6 = '6. ¿?';
+				clientQ6 = '<h1>6. ¿?</h1>';
 				// ANSWER
-				clientA6 = '6. Te recomendamos.';
+				clientA6 = '<h1>6. Te recomendamos.</h1>';
 				// CONTINUE COPY
-				clientC6 = '6. Descúbrenos.';
+				clientC6 = '<h5>6. Descúbrenos.</h5>';
 			// END QUESTION 6
 
 			// QUESTION 7
-				clientQ7 = '7. ¿?';
+				clientQ7 = '<h1>7. ¿?</h1>';
 				// ANSWER
-				clientA7 = '7. Te recomendamos.';
+				clientA7 = '<h1>7. Te recomendamos.</h1>';
 				// CONTINUE COPY
-				clientC7 = '7. Descúbrenos.';
+				clientC7 = '<h5>7. Descúbrenos.</h5>';
 			// END QUESTION 7
 
 			// QUESTION 8
-				clientQ8 = '8. ¿?';
+				clientQ8 = '<h1>8. ¿?</h1>';
 				// ANSWER
-				clientA8 = '8. Te recomendamos.';
+				clientA8 = '<h1>8. Te recomendamos.</h1>';
 				// CONTINUE COPY
-				clientC8 = '8. Descúbrenos.';
+				clientC8 = '<h5>8. Descúbrenos.</h5>';
 			// END QUESTION 8
 		// END CLIENT QUESTION PACK
 
 		// TALENT QUESTION PACK
 			// QUESTION 1
-				talentQ1 = '1. ¿?';
+				talentQ1 = '<h1>1. ¿?</h1>';
 				// ANSWER
-				talentA1 = '1. Te recomendamos.';
+				talentA1 = '<h1>1. Te recomendamos.</h1>';
 				// CONTINUE COPY
-				talentC1 = '1. Descúbrenos.';
+				talentC1 = '<h5>1. Descúbrenos.</h5>';
 			// END QUESTION 1
 
 			// QUESTION 2
-				talentQ2 = '2. ¿?';
+				talentQ2 = '<h1>2. ¿?</h1>';
 				// ANSWER
-				talentA2 = '2. Te recomendamos.';
+				talentA2 = '<h1>2. Te recomendamos.</h1>';
 				// CONTINUE COPY
-				talentC2 = '2. Descúbrenos.';
+				talentC2 = '<h5>2. Descúbrenos.</h5>';
 			// END QUESTION 2
 
 			// QUESTION 3
-				talentQ3 = '3. ¿?';
+				talentQ3 = '<h1>3. ¿?</h1>';
 				// ANSWER
-				talentA3 = '3. Te recomendamos.';
+				talentA3 = '<h1>3. Te recomendamos.</h1>';
 				// CONTINUE COPY
-				talentC3 = '3. Descúbrenos.';
+				talentC3 = '<h5>3. Descúbrenos.</h5>';
 			// END QUESTION 3
 
 			// QUESTION 4
-				talentQ4 = '4. ¿?';
+				talentQ4 = '<h1>4. ¿?</h1>';
 				// ANSWER
-				talentA4 = '4. Te recomendamos.';
+				talentA4 = '<h1>4. Te recomendamos.</h1>';
 				// CONTINUE COPY
-				talentC4 = '4. Descúbrenos.';
+				talentC4 = '<h5>4. Descúbrenos.</h5>';
 			// END QUESTION 4
 
 			// QUESTION 5
-				talentQ5 = '5. ¿?';
+				talentQ5 = '<h1>5. ¿?</h1>';
 				// ANSWER
-				talentA5 = '5. Te recomendamos.';
+				talentA5 = '<h1>5. Te recomendamos.</h1>';
 				// CONTINUE COPY
-				talentC5 = '5. Descúbrenos.';
+				talentC5 = '<h5>5. Descúbrenos.</h5>';
 			// END QUESTION 5
 
 			// QUESTION 6
-				talentQ6 = '6. ¿?';
+				talentQ6 = '<h1>6. ¿?</h1>';
 				// ANSWER
-				talentA6 = '6. Te recomendamos.';
+				talentA6 = '<h1>6. Te recomendamos.</h1>';
 				// CONTINUE COPY
-				talentC6 = '6. Descúbrenos.';
+				talentC6 = '<h5>6. Descúbrenos.</h5>';
 			// END QUESTION 6
 
 			// QUESTION 7
-				talentQ7 = '7. ¿?';
+				talentQ7 = '<h1>7. ¿?</h1>';
 				// ANSWER
-				talentA7 = '7. Te recomendamos.';
+				talentA7 = '<h1>7. Te recomendamos.</h1>';
 				// CONTINUE COPY
-				talentC7 = '7. Descúbrenos.';
+				talentC7 = '<h5>7. Descúbrenos.</h5>';
 			// END QUESTION 7
 
 			// QUESTION 8
-				talentQ8 = '8. ¿?';
+				talentQ8 = '<h1>8. ¿?</h1>';
 				// ANSWER
-				talentA8 = '8. Te recomendamos.';
+				talentA8 = '<h1>8. Te recomendamos.</h1>';
 				// CONTINUE COPY
-				talentC8 = '8. Descúbrenos.';
+				talentC8 = '<h5>8. Descúbrenos.</h5>';
 			// END QUESTION 8
 		// END TALENT QUESTION PACK
 
@@ -352,136 +352,70 @@ jQuery(document).ready(function($) {
 
 	// SET AGENCIES PACKS
 		// DECLARE AGENCIES NAME AND CONTACT DATA VARIABLES
-			// DECLARE AGENCIES NAME VARIABLES
-			var agencyName1,agencyName2,agencyName3,agencyName4,agencyName5,agencyName6,agencyName7,agencyName8,agencyName9,agencyName10,agencyName11,agencyName12,agencyName13,agencyName14,agencyName15,agencyName16,agencyName17,agencyName18,agencyName19,agencyName20,agencyName21,agencyName22,agencyName23,agencyName24;
-
-				
 			// DECLARE AGENCIES DATA VARIABLES
 			var agencyData1,agencyData2,agencyData3,agencyData4,agencyData5,agencyData6,agencyData7,agencyData8,agencyData9,agencyData10,agencyData11,agencyData12,agencyData13,agencyData14,agencyData15,agencyData16,agencyData17,agencyData18,agencyData19,agencyData20,agencyData21,agencyData22,agencyData23,agencyData24;
 		// END DECLARE AGENCIES NAME AND CONTACT DATA VARIABLES
 
 			
 		// AGENCIES INFO: NAME AND CONTACT DATA
-			// AGENCY 1
-			agencyName1 = '1. Agency Name';
-			agencyData1 = '1. Agency Data';
+			
+			agencyData1 = '<div class="placeHolder"> <h2> BBDO </h2> </div> <a href="http://www.bbdomexico.com/" target="_blank" class="placeAnimated"> <div class="innerAnimateComment fourLines w100Mobile"> <h3> <span class="boldMobile">BBDO</span> <br> Carlos Vaca <br> CEO <br> http://www.bbdomexico.com/ </h3> </div> </a>';
+			
+			agencyData2 = '<div class="placeHolder"> <h2> DDB </h2> </div> <a href="http://ddbmexico.com/" target="_blank" class="placeAnimated"> <div class="innerAnimateComment fourLines w100Mobile"> <h3> <span class="boldMobile">DDB</span> <br> Matías del Campo <br> CEO <br> http://ddbmexico.com/ </h3> </div> </a>';
+			
+			agencyData3 = '<div class="placeHolder"> <h2> JWT </h2> </div> <a href="https://www.jwt.com/mexicocity/" target="_blank" class="placeAnimated"> <div class="innerAnimateComment fourLines w100Mobile"> <h3> <span class="boldMobile">J. Walter Thompson</span> <br> Mariate Arnal <br> CEO <br> https://www.jwt.com/mexicocity/ </h3> </div> </a>';
 
-			// AGENCY 2
-			agencyName2 = '2. Agency Name';
-			agencyData2 = '2. Agency Data';
-
-			// AGENCY 3
-			agencyName3 = '3. Agency Name';
-			agencyData3 = '3. Agency Data';
-
-			// AGENCY 4
-			agencyName4 = '4. Agency Name';
 			agencyData4 = '4. Agency Data';
 
-			// AGENCY 5
-			agencyName5 = '5. Agency Name';
 			agencyData5 = '5. Agency Data';
 
-			// AGENCY 6
-			agencyName6 = '6. Agency Name';
 			agencyData6 = '6. Agency Data';
 
-			// AGENCY 7
-			agencyName7 = '7. Agency Name';
 			agencyData7 = '7. Agency Data';
 
-			// AGENCY 8
-			agencyName8 = '8. Agency Name';
 			agencyData8 = '8. Agency Data';
 
-			// AGENCY 9
-			agencyName9 = '9. Agency Name';
 			agencyData9 = '9. Agency Data';
 
-			// AGENCY 10
-			agencyName10 = '10. Agency Name';
 			agencyData10 = '10. Agency Data';
 
-			// AGENCY 11
-			agencyName11 = '11. Agency Name';
 			agencyData11 = '11. Agency Data';
 
-			// AGENCY 12
-			agencyName12 = '12. Agency Name';
 			agencyData12 = '12. Agency Data';
 
-			// AGENCY 13
-			agencyName13 = '13. Agency Name';
 			agencyData13 = '13. Agency Data';
 
-			// AGENCY 14
-			agencyName14 = '14. Agency Name';
 			agencyData14 = '14. Agency Data';
 
-			// AGENCY 15
-			agencyName15 = '15. Agency Name';
 			agencyData15 = '15. Agency Data';
 
-			// AGENCY 16
-			agencyName16 = '16. Agency Name';
 			agencyData16 = '16. Agency Data';
 
-			// AGENCY 17
-			agencyName17 = '17. Agency Name';
 			agencyData17 = '17. Agency Data';
 
-			// AGENCY 18
-			agencyName18 = '18. Agency Name';
 			agencyData18 = '18. Agency Data';
 
-			// AGENCY 19
-			agencyName19 = '19. Agency Name';
 			agencyData19 = '19. Agency Data';
 
-			// AGENCY 20
-			agencyName20 = '20. Agency Name';
 			agencyData20 = '20. Agency Data';
 
-			// AGENCY 21
-			agencyName21 = '21. Agency Name';
 			agencyData21 = '21. Agency Data';
 
-			// AGENCY 22
-			agencyName22 = '22. Agency Name';
 			agencyData22 = '22. Agency Data';
 
-			// AGENCY 23
-			agencyName23 = '23. Agency Name';
 			agencyData23 = '23. Agency Data';
 
-			// AGENCY 24
-			agencyName24 = '24. Agency Name';
 			agencyData24 = '24. Agency Data';
 		// END AGENCIES INFO
 		
 
 		// INSERT AGENCIES NAMES AND DATA
-			var agenciesName = [agencyName1,agencyName2,agencyName3,agencyName4,agencyName5,agencyName6,agencyName7,agencyName8,agencyName9,agencyName10,agencyName11,agencyName12,agencyName13,agencyName14,agencyName15,agencyName16,agencyName17,agencyName18,agencyName19,agencyName20,agencyName21,agencyName22,agencyName23,agencyName24];
-
 			var agenciesData = [agencyData1,agencyData2,agencyData3,agencyData4,agencyData5,agencyData6,agencyData7,agencyData8,agencyData9,agencyData10,agencyData11,agencyData12,agencyData13,agencyData14,agencyData15,agencyData16,agencyData17,agencyData18,agencyData19,agencyData20,agencyData21,agencyData22,agencyData23,agencyData24];
 		
 
-			var topClientAgenciesNames 	  = [agenciesName[0], agenciesName[3], agenciesName[6], agenciesName[9], agenciesName[12]];
-			var centerClientAgenciesNames = [agenciesName[1], agenciesName[4], agenciesName[7], agenciesName[10], agenciesName[13]];
-			var bottomClientAgenciesNames = [agenciesName[2], agenciesName[5], agenciesName[8], agenciesName[11], agenciesName[14]];
-
-			var topClientAgenciesData 	 = [agenciesData[0], agenciesData[3], agenciesData[6], agenciesData[9], agenciesData[12]];
-			var centerClientAgenciesData = [agenciesData[1], agenciesData[4], agenciesData[7], agenciesData[10], agenciesData[13]];
-			var bottomClientAgenciesData = [agenciesData[2], agenciesData[5], agenciesData[8], agenciesData[11], agenciesData[14]];
-
-
-			var topTalentAgenciesNames 	  = [agenciesName[13], agenciesName[2], agenciesName[4], agenciesName[15]];
-			var centerTalentAgenciesNames = [agenciesName[4], agenciesName[1], agenciesName[5], agenciesName[2]];
-			var bottomTalentAgenciesNames = [agenciesName[1], agenciesName[0], agenciesName[3], agenciesName[3]];
-
-			var topTalentAgenciesData 	 = [agenciesData[13], agenciesData[2], agenciesData[4], agenciesData[15]];
-			var centerTalentAgenciesData = [agenciesData[4], agenciesData[1], agenciesData[5], agenciesData[2]];
-			var bottomTalentAgenciesData = [agenciesData[1], agenciesData[0], agenciesData[3], agenciesData[3]];
+			var topAgenciesData    = [agenciesData[0], agenciesData[3], agenciesData[6], agenciesData[9], agenciesData[12], agenciesData[15], agenciesData[18], agenciesData[21]];
+			var centerAgenciesData = [agenciesData[1], agenciesData[4], agenciesData[7], agenciesData[10], agenciesData[13], agenciesData[16], agenciesData[19], agenciesData[22]];
+			var bottomAgenciesData = [agenciesData[2], agenciesData[5], agenciesData[8], agenciesData[11], agenciesData[14], agenciesData[17], agenciesData[20], agenciesData[23]];
 		// END INSERT AGENCIES NAMES AND DATA
 	// END SET AGENCIES PACKS
 
@@ -680,6 +614,7 @@ jQuery(document).ready(function($) {
 							masterHideElement($('#clientFirstQuestion'),450);
 
 							masterInsertQAC('#clientFirstAdvice', answersClient, heightClientAnswers, selectedClientQAC1);
+							masterInsertQAC('#clientFirstNextTextHolder', copiesClient, 'none', selectedClientQAC1);
 
 							setTimeout(function(){
 								masterShowElement($('#clientFirstAdvice'),600);
@@ -735,6 +670,7 @@ jQuery(document).ready(function($) {
 							masterHideElement($('#clientSecondQuestion'),450);
 
 							masterInsertQAC('#clientSecondAdvice', answersClient, heightClientAnswers, selectedClientQAC2);
+							masterInsertQAC('#clientSecondNextTextHolder', copiesClient, 'none', selectedClientQAC2);
 
 							setTimeout(function(){
 								masterShowElement($('#clientSecondAdvice'),600);
@@ -933,6 +869,7 @@ jQuery(document).ready(function($) {
 						masterHideElement($('#talentFirstQuestion'),450);
 
 						masterInsertQAC('#talentFirstAdvice', answersTalent, heightTalentAnswers, selectedTalentQAC1);
+						masterInsertQAC('#talentFirstNextTextHolder', copiesTalent, 'none', selectedTalentQAC1);
 
 						setTimeout(function(){
 							masterShowElement($('#talentFirstAdvice'),600);
@@ -971,6 +908,7 @@ jQuery(document).ready(function($) {
 						masterHideElement($('#talentSecondQuestion'),450);
 
 						masterInsertQAC('#talentSecondAdvice', answersTalent, heightTalentAnswers, selectedTalentQAC2);
+						masterInsertQAC('#talentSecondNextTextHolder', copiesTalent, 'none', selectedTalentQAC2);
 
 						setTimeout(function(){
 							masterShowElement($('#talentSecondAdvice'),600);
@@ -1136,18 +1074,14 @@ jQuery(document).ready(function($) {
 					$('.innerStartWeb').removeClass('pushStartWeb');
 				},700);
 
-				// SHUFFLE QUESTIONS ANSWERS AND COPIES AGAIN
-					shuffle(randomClient);
-					shuffle(randomTalent);
-					checkRandomOrder();
-				// END SHUFFLE AGAIN
-
 				// RESET CLIENT FLOW
 					// RESET CLIENT BOXES
 					masterRemoveQAC('#clientFirstQuestion');
 					masterRemoveQAC('#clientFirstAdvice');
+					masterRemoveQAC('#clientFirstNextTextHolder');
 					masterRemoveQAC('#clientSecondQuestion');
 					masterRemoveQAC('#clientSecondAdvice');
+					masterRemoveQAC('#clientSecondNextTextHolder');
 
 					// RESET CLIENT FIRST QUESTION FLOW: CONNECT?
 					masterHideElement($('#clientFirstOption2'),0);
@@ -1222,8 +1156,10 @@ jQuery(document).ready(function($) {
 					// RESET TALENT BOXES
 					masterRemoveQAC('#talentFirstQuestion');
 					masterRemoveQAC('#talentFirstAdvice');
+					masterRemoveQAC('#talentFirstNextTextHolder');
 					masterRemoveQAC('#talentSecondQuestion');
 					masterRemoveQAC('#talentSecondAdvice');
+					masterRemoveQAC('#talentSecondNextTextHolder');
 
 					// RESET TALENT FIRST QUESTION FLOW: DO YOU DRINK?
 					masterHideElement($('#talentFirstOption2'),0);
