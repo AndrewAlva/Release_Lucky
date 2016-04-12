@@ -52,9 +52,18 @@ jQuery(document).ready(function($) {
 
 		var randomClient = [0,1,2,3,4,5,6,7];
 		var randomTalent = [0,1,2,3,4,5,6,7];
+		var randomClientB = [0,1,2,3,4,5,6,7];
+		var randomTalentB = [0,1,2,3,4,5,6,7];
+		var randomClientC = [0,1,2,3,4,5,6,7];
+		var randomTalentC = [0,1,2,3,4,5,6,7];
+		var shuffled = 0;
 
 		shuffle(randomClient);
 		shuffle(randomTalent);
+		shuffle(randomClientB);
+		shuffle(randomTalentB);
+		shuffle(randomClientC);
+		shuffle(randomTalentC);
 
 		var selectedClientQAC1 = randomClient[0];
 		var selectedClientQAC2 = randomClient[1];
@@ -351,71 +360,127 @@ jQuery(document).ready(function($) {
 
 
 	// SET AGENCIES PACKS
+		// CLEAN AGENCIES DIVS TO INSERT NEW ONES
+			setTimeout(function(){
+				// masterRemoveQAC('#clientFirstAgency1');
+				// masterRemoveQAC('#clientFirstAgency2');
+				// masterRemoveQAC('#clientFirstAgency3');
+				// masterRemoveQAC('#clientSecondAgency1');
+				// masterRemoveQAC('#clientSecondAgency2');
+				// masterRemoveQAC('#clientSecondAgency3');
+
+				// masterRemoveQAC('#talentFirstAgency1');
+				// masterRemoveQAC('#talentFirstAgency2');
+				// masterRemoveQAC('#talentFirstAgency3');
+				// masterRemoveQAC('#talentSecondAgency1');
+				// masterRemoveQAC('#talentSecondAgency2');
+				// masterRemoveQAC('#talentSecondAgency3');
+			},1000);
+		// END CLEAN AGENCIES DIVS
+
 		// DECLARE AGENCIES NAME AND CONTACT DATA VARIABLES
 			// DECLARE AGENCIES DATA VARIABLES
+			var agencyName1,agencyName2,agencyName3,agencyName4,agencyName5,agencyName6,agencyName7,agencyName8,agencyName9,agencyName10,agencyName11,agencyName12,agencyName13,agencyName14,agencyName15,agencyName16,agencyName17,agencyName18,agencyName19,agencyName20,agencyName21,agencyName22,agencyName23,agencyName24;
 			var agencyData1,agencyData2,agencyData3,agencyData4,agencyData5,agencyData6,agencyData7,agencyData8,agencyData9,agencyData10,agencyData11,agencyData12,agencyData13,agencyData14,agencyData15,agencyData16,agencyData17,agencyData18,agencyData19,agencyData20,agencyData21,agencyData22,agencyData23,agencyData24;
+			var agencyMail1,agencyMail2,agencyMail3,agencyMail4,agencyMail5,agencyMail6,agencyMail7,agencyMail8,agencyMail9,agencyMail10,agencyMail11,agencyMail12,agencyMail13,agencyMail14,agencyMail15,agencyMail16,agencyMail17,agencyMail18,agencyMail19,agencyMail20,agencyMail21,agencyMail22,agencyMail23,agencyMail24;
 		// END DECLARE AGENCIES NAME AND CONTACT DATA VARIABLES
 
 			
 		// AGENCIES INFO: NAME AND CONTACT DATA
-			
-			agencyData1 = '<div class="placeHolder"> <h2> BBDO </h2> </div> <a href="http://www.bbdomexico.com/" target="_blank" class="placeAnimated"> <div class="innerAnimateComment fourLines w100Mobile"> <h3> <span class="boldMobile">BBDO</span> <br> Carlos Vaca <br> CEO <br> http://www.bbdomexico.com/ </h3> </div> </a>';
-			
-			agencyData2 = '<div class="placeHolder"> <h2> DDB </h2> </div> <a href="http://ddbmexico.com/" target="_blank" class="placeAnimated"> <div class="innerAnimateComment fourLines w100Mobile"> <h3> <span class="boldMobile">DDB</span> <br> Matías del Campo <br> CEO <br> http://ddbmexico.com/ </h3> </div> </a>';
-			
-			agencyData3 = '<div class="placeHolder"> <h2> JWT </h2> </div> <a href="https://www.jwt.com/mexicocity/" target="_blank" class="placeAnimated"> <div class="innerAnimateComment fourLines w100Mobile"> <h3> <span class="boldMobile">J. Walter Thompson</span> <br> Mariate Arnal <br> CEO <br> https://www.jwt.com/mexicocity/ </h3> </div> </a>';
+			agencyName1 = '1. Agency Name';
+			agencyName2 = '2. Agency Name';
+			agencyName3 = '3. Agency Name';
+			agencyName4 = '4. Agency Name';
+			agencyName5 = '5. Agency Name';
+			agencyName6 = '6. Agency Name';
+			agencyName7 = '7. Agency Name';
+			agencyName8 = '8. Agency Name';
+			agencyName9 = '9. Agency Name';
+			agencyName10 = '10. Agency Name';
+			agencyName11 = '11. Agency Name';
+			agencyName12 = '12. Agency Name';
+			agencyName13 = '13. Agency Name';
+			agencyName14 = '14. Agency Name';
+			agencyName15 = '15. Agency Name';
+			agencyName16 = '16. Agency Name';
+			agencyName17 = '17. Agency Name';
+			agencyName18 = '18. Agency Name';
+			agencyName19 = '19. Agency Name';
+			agencyName20 = '20. Agency Name';
+			agencyName21 = '21. Agency Name';
+			agencyName22 = '22. Agency Name';
+			agencyName23 = '23. Agency Name';
+			agencyName24 = '24. Agency Name';
 
-			agencyData4 = '4. Agency Data';
+			agencyData1 = '<span class="boldMobile"> 1. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+			agencyData2 = '<span class="boldMobile"> 2. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+			agencyData3 = '<span class="boldMobile"> 3. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+			agencyData4 = '<span class="boldMobile"> 4. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+			agencyData5 = '<span class="boldMobile"> 5. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+			agencyData6 = '<span class="boldMobile"> 6. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+			agencyData7 = '<span class="boldMobile"> 7. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+			agencyData8 = '<span class="boldMobile"> 8. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+			agencyData9 = '<span class="boldMobile"> 9. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+			agencyData10 = '<span class="boldMobile"> 10. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+			agencyData11 = '<span class="boldMobile"> 11. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+			agencyData12 = '<span class="boldMobile"> 12. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+			agencyData13 = '<span class="boldMobile"> 13. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+			agencyData14 = '<span class="boldMobile"> 14. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+			agencyData15 = '<span class="boldMobile"> 15. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+			agencyData16 = '<span class="boldMobile"> 16. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+			agencyData17 = '<span class="boldMobile"> 17. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+			agencyData18 = '<span class="boldMobile"> 18. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+			agencyData19 = '<span class="boldMobile"> 19. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+			agencyData20 = '<span class="boldMobile"> 20. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+			agencyData21 = '<span class="boldMobile"> 21. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+			agencyData22 = '<span class="boldMobile"> 22. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+			agencyData23 = '<span class="boldMobile"> 23. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+			agencyData24 = '<span class="boldMobile"> 24. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
 
-			agencyData5 = '5. Agency Data';
-
-			agencyData6 = '6. Agency Data';
-
-			agencyData7 = '7. Agency Data';
-
-			agencyData8 = '8. Agency Data';
-
-			agencyData9 = '9. Agency Data';
-
-			agencyData10 = '10. Agency Data';
-
-			agencyData11 = '11. Agency Data';
-
-			agencyData12 = '12. Agency Data';
-
-			agencyData13 = '13. Agency Data';
-
-			agencyData14 = '14. Agency Data';
-
-			agencyData15 = '15. Agency Data';
-
-			agencyData16 = '16. Agency Data';
-
-			agencyData17 = '17. Agency Data';
-
-			agencyData18 = '18. Agency Data';
-
-			agencyData19 = '19. Agency Data';
-
-			agencyData20 = '20. Agency Data';
-
-			agencyData21 = '21. Agency Data';
-
-			agencyData22 = '22. Agency Data';
-
-			agencyData23 = '23. Agency Data';
-
-			agencyData24 = '24. Agency Data';
+			agencyMail1 = '1. mailto:ceo@mail.com'
+			agencyMail2 = '2. mailto:ceo@mail.com'
+			agencyMail3 = '3. mailto:ceo@mail.com'
+			agencyMail4 = '4. mailto:ceo@mail.com'
+			agencyMail5 = '5. mailto:ceo@mail.com'
+			agencyMail6 = '6. mailto:ceo@mail.com'
+			agencyMail7 = '7. mailto:ceo@mail.com'
+			agencyMail8 = '8. mailto:ceo@mail.com'
+			agencyMail9 = '9. mailto:ceo@mail.com'
+			agencyMail10 = '10. mailto:ceo@mail.com'
+			agencyMail11 = '11. mailto:ceo@mail.com'
+			agencyMail12 = '12. mailto:ceo@mail.com'
+			agencyMail13 = '13. mailto:ceo@mail.com'
+			agencyMail14 = '14. mailto:ceo@mail.com'
+			agencyMail15 = '15. mailto:ceo@mail.com'
+			agencyMail16 = '16. mailto:ceo@mail.com'
+			agencyMail17 = '17. mailto:ceo@mail.com'
+			agencyMail18 = '18. mailto:ceo@mail.com'
+			agencyMail19 = '19. mailto:ceo@mail.com'
+			agencyMail20 = '20. mailto:ceo@mail.com'
+			agencyMail21 = '21. mailto:ceo@mail.com'
+			agencyMail22 = '22. mailto:ceo@mail.com'
+			agencyMail23 = '23. mailto:ceo@mail.com'
+			agencyMail24 = '24. mailto:ceo@mail.com'
 		// END AGENCIES INFO
 		
 
 		// INSERT AGENCIES NAMES AND DATA
+			var agenciesName = [agencyName1,agencyName2,agencyName3,agencyName4,agencyName5,agencyName6,agencyName7,agencyName8,agencyName9,agencyName10,agencyName11,agencyName12,agencyName13,agencyName14,agencyName15,agencyName16,agencyName17,agencyName18,agencyName19,agencyName20,agencyName21,agencyName22,agencyName23,agencyName24];
 			var agenciesData = [agencyData1,agencyData2,agencyData3,agencyData4,agencyData5,agencyData6,agencyData7,agencyData8,agencyData9,agencyData10,agencyData11,agencyData12,agencyData13,agencyData14,agencyData15,agencyData16,agencyData17,agencyData18,agencyData19,agencyData20,agencyData21,agencyData22,agencyData23,agencyData24];
+			var agenciesMail = [agencyMail1,agencyMail2,agencyMail3,agencyMail4,agencyMail5,agencyMail6,agencyMail7,agencyMail8,agencyMail9,agencyMail10,agencyMail11,agencyMail12,agencyMail13,agencyMail14,agencyMail15,agencyMail16,agencyMail17,agencyMail18,agencyMail19,agencyMail20,agencyMail21,agencyMail22,agencyMail23,agencyMail24];
 		
+
+			var topAgenciesName    = [agenciesName[0], agenciesName[3], agenciesName[6], agenciesName[9], agenciesName[12], agenciesName[15], agenciesName[18], agenciesName[21]];
+			var centerAgenciesName = [agenciesName[1], agenciesName[4], agenciesName[7], agenciesName[10], agenciesName[13], agenciesName[16], agenciesName[19], agenciesName[22]];
+			var bottomAgenciesName = [agenciesName[2], agenciesName[5], agenciesName[8], agenciesName[11], agenciesName[14], agenciesName[17], agenciesName[20], agenciesName[23]];
 
 			var topAgenciesData    = [agenciesData[0], agenciesData[3], agenciesData[6], agenciesData[9], agenciesData[12], agenciesData[15], agenciesData[18], agenciesData[21]];
 			var centerAgenciesData = [agenciesData[1], agenciesData[4], agenciesData[7], agenciesData[10], agenciesData[13], agenciesData[16], agenciesData[19], agenciesData[22]];
 			var bottomAgenciesData = [agenciesData[2], agenciesData[5], agenciesData[8], agenciesData[11], agenciesData[14], agenciesData[17], agenciesData[20], agenciesData[23]];
+
+			var topAgenciesMail    = [agenciesMail[0], agenciesMail[3], agenciesMail[6], agenciesMail[9], agenciesMail[12], agenciesMail[15], agenciesMail[18], agenciesMail[21]];
+			var centerAgenciesMail = [agenciesMail[1], agenciesMail[4], agenciesMail[7], agenciesMail[10], agenciesMail[13], agenciesMail[16], agenciesMail[19], agenciesMail[22]];
+			var bottomAgenciesMail = [agenciesMail[2], agenciesMail[5], agenciesMail[8], agenciesMail[11], agenciesMail[14], agenciesMail[17], agenciesMail[20], agenciesMail[23]];
 		// END INSERT AGENCIES NAMES AND DATA
 	// END SET AGENCIES PACKS
 
@@ -616,6 +681,18 @@ jQuery(document).ready(function($) {
 							masterInsertQAC('#clientFirstAdvice', answersClient, heightClientAnswers, selectedClientQAC1);
 							masterInsertQAC('#clientFirstNextTextHolder', copiesClient, 'none', selectedClientQAC1);
 
+							masterInsertQAC('#clientFirstAgencyName1', topAgenciesName, 'none', selectedClientQAC1);
+							masterInsertQAC('#clientFirstAgencyName2', centerAgenciesName, 'none', selectedClientQAC1);
+							masterInsertQAC('#clientFirstAgencyName3', bottomAgenciesName, 'none', selectedClientQAC1);
+
+							masterInsertQAC('#clientFirstAgencyData1', topAgenciesData, 'none', selectedClientQAC1);
+							masterInsertQAC('#clientFirstAgencyData2', centerAgenciesData, 'none', selectedClientQAC1);
+							masterInsertQAC('#clientFirstAgencyData3', bottomAgenciesData, 'none', selectedClientQAC1);
+
+							masterInsertHREF('#clientFirstAgencyMail1', topAgenciesMail[selectedClientQAC1]);
+							masterInsertHREF('#clientFirstAgencyMail2', centerAgenciesMail[selectedClientQAC1]);
+							masterInsertHREF('#clientFirstAgencyMail3', bottomAgenciesMail[selectedClientQAC1]);
+
 							setTimeout(function(){
 								masterShowElement($('#clientFirstAdvice'),600);
 								masterShowElement($('#clientFirstNext'),700);
@@ -671,6 +748,18 @@ jQuery(document).ready(function($) {
 
 							masterInsertQAC('#clientSecondAdvice', answersClient, heightClientAnswers, selectedClientQAC2);
 							masterInsertQAC('#clientSecondNextTextHolder', copiesClient, 'none', selectedClientQAC2);
+
+							masterInsertQAC('#clientSecondAgencyName1', topAgenciesName, 'none', selectedClientQAC2);
+							masterInsertQAC('#clientSecondAgencyName2', centerAgenciesName, 'none', selectedClientQAC2);
+							masterInsertQAC('#clientSecondAgencyName3', bottomAgenciesName, 'none', selectedClientQAC2);
+
+							masterInsertQAC('#clientSecondAgencyData1', topAgenciesData, 'none', selectedClientQAC2);
+							masterInsertQAC('#clientSecondAgencyData2', centerAgenciesData, 'none', selectedClientQAC2);
+							masterInsertQAC('#clientSecondAgencyData3', bottomAgenciesData, 'none', selectedClientQAC2);
+
+							masterInsertHREF('#clientSecondAgencyMail1', topAgenciesMail[selectedClientQAC2]);
+							masterInsertHREF('#clientSecondAgencyMail2', centerAgenciesMail[selectedClientQAC2]);
+							masterInsertHREF('#clientSecondAgencyMail3', bottomAgenciesMail[selectedClientQAC2]);
 
 							setTimeout(function(){
 								masterShowElement($('#clientSecondAdvice'),600);
@@ -871,6 +960,18 @@ jQuery(document).ready(function($) {
 						masterInsertQAC('#talentFirstAdvice', answersTalent, heightTalentAnswers, selectedTalentQAC1);
 						masterInsertQAC('#talentFirstNextTextHolder', copiesTalent, 'none', selectedTalentQAC1);
 
+						masterInsertQAC('#talentFirstAgencyName1', topAgenciesName, 'none', selectedTalentQAC1);
+						masterInsertQAC('#talentFirstAgencyName2', centerAgenciesName, 'none', selectedTalentQAC1);
+						masterInsertQAC('#talentFirstAgencyName3', bottomAgenciesName, 'none', selectedTalentQAC1);
+
+						masterInsertQAC('#talentFirstAgencyData1', topAgenciesData, 'none', selectedTalentQAC1);
+						masterInsertQAC('#talentFirstAgencyData2', centerAgenciesData, 'none', selectedTalentQAC1);
+						masterInsertQAC('#talentFirstAgencyData3', bottomAgenciesData, 'none', selectedTalentQAC1);
+
+						masterInsertHREF('#talentFirstAgencyMail1', topAgenciesMail[selectedTalentQAC1]);
+						masterInsertHREF('#talentFirstAgencyMail2', centerAgenciesMail[selectedTalentQAC1]);
+						masterInsertHREF('#talentFirstAgencyMail3', bottomAgenciesMail[selectedTalentQAC1]);
+
 						setTimeout(function(){
 							masterShowElement($('#talentFirstAdvice'),600);
 							masterShowElement($('#talentFirstNext'),700);
@@ -909,6 +1010,18 @@ jQuery(document).ready(function($) {
 
 						masterInsertQAC('#talentSecondAdvice', answersTalent, heightTalentAnswers, selectedTalentQAC2);
 						masterInsertQAC('#talentSecondNextTextHolder', copiesTalent, 'none', selectedTalentQAC2);
+
+						masterInsertQAC('#talentSecondAgencyName1', topAgenciesName, 'none', selectedTalentQAC2);
+						masterInsertQAC('#talentSecondAgencyName2', centerAgenciesName, 'none', selectedTalentQAC2);
+						masterInsertQAC('#talentSecondAgencyName3', bottomAgenciesName, 'none', selectedTalentQAC2);
+
+						masterInsertQAC('#talentSecondAgencyData1', topAgenciesData, 'none', selectedTalentQAC2);
+						masterInsertQAC('#talentSecondAgencyData2', centerAgenciesData, 'none', selectedTalentQAC2);
+						masterInsertQAC('#talentSecondAgencyData3', bottomAgenciesData, 'none', selectedTalentQAC2);
+
+						masterInsertHREF('#talentSecondAgencyMail1', topAgenciesMail[selectedTalentQAC2]);
+						masterInsertHREF('#talentSecondAgencyMail2', centerAgenciesMail[selectedTalentQAC2]);
+						masterInsertHREF('#talentSecondAgencyMail3', bottomAgenciesMail[selectedTalentQAC2]);
 
 						setTimeout(function(){
 							masterShowElement($('#talentSecondAdvice'),600);
@@ -1062,6 +1175,40 @@ jQuery(document).ready(function($) {
 				
 				
 
+				// ASSIGN NEW SHUFFLE
+					if (shuffled == 0){
+						selectedClientQAC1 = randomClientB[0];
+						selectedClientQAC2 = randomClientB[1];
+
+						selectedTalentQAC1 = randomTalentB[0];
+						selectedTalentQAC2 = randomTalentB[1];
+
+						shuffled += 1;
+						console.log('Shuffled!');
+					} else if(shuffled == 1) {
+						selectedClientQAC1 = randomClientC[0];
+						selectedClientQAC2 = randomClientC[1];
+
+						selectedTalentQAC1 = randomTalentC[0];
+						selectedTalentQAC2 = randomTalentC[1];
+
+						shuffled += 1;
+						console.log('Shuffled again!');
+
+					} else if (shuffled == 2) {
+						selectedClientQAC1 = randomClient[0];
+						selectedClientQAC2 = randomClient[1];
+
+						selectedTalentQAC1 = randomTalent[0];
+						selectedTalentQAC2 = randomTalent[1];
+
+						shuffled = 0;
+						console.log('Un-Shuffled');
+					}
+
+					checkRandomOrder();
+				// END NEW SHUFFLE
+
 				// SHOW INTRO
 				$('#welcomePage').removeClass('notHere');
 				// RESET WHO ARE YOU OPTIONS
@@ -1082,6 +1229,26 @@ jQuery(document).ready(function($) {
 					masterRemoveQAC('#clientSecondQuestion');
 					masterRemoveQAC('#clientSecondAdvice');
 					masterRemoveQAC('#clientSecondNextTextHolder');
+
+					masterRemoveHREF('#clientFirstAgencyMail1');
+					masterRemoveHREF('#clientFirstAgencyMail2');
+					masterRemoveHREF('#clientFirstAgencyMail3');
+					masterRemoveQAC('#clientFirstAgencyName1');
+					masterRemoveQAC('#clientFirstAgencyName2');
+					masterRemoveQAC('#clientFirstAgencyName3');
+					masterRemoveQAC('#clientFirstAgencyData1');
+					masterRemoveQAC('#clientFirstAgencyData2');
+					masterRemoveQAC('#clientFirstAgencyData3');
+
+					masterRemoveHREF('#clientSecondAgencyMail1');
+					masterRemoveHREF('#clientSecondAgencyMail2');
+					masterRemoveHREF('#clientSecondAgencyMail3');
+					masterRemoveQAC('#clientSecondAgencyName1');
+					masterRemoveQAC('#clientSecondAgencyName2');
+					masterRemoveQAC('#clientSecondAgencyName3');
+					masterRemoveQAC('#clientSecondAgencyData1');
+					masterRemoveQAC('#clientSecondAgencyData2');
+					masterRemoveQAC('#clientSecondAgencyData3');
 
 					// RESET CLIENT FIRST QUESTION FLOW: CONNECT?
 					masterHideElement($('#clientFirstOption2'),0);
@@ -1161,6 +1328,26 @@ jQuery(document).ready(function($) {
 					masterRemoveQAC('#talentSecondAdvice');
 					masterRemoveQAC('#talentSecondNextTextHolder');
 
+					masterRemoveHREF('#talentFirstAgencyMail1');
+					masterRemoveHREF('#talentFirstAgencyMail2');
+					masterRemoveHREF('#talentFirstAgencyMail3');
+					masterRemoveQAC('#talentFirstAgencyName1');
+					masterRemoveQAC('#talentFirstAgencyName2');
+					masterRemoveQAC('#talentFirstAgencyName3');
+					masterRemoveQAC('#talentFirstAgencyData1');
+					masterRemoveQAC('#talentFirstAgencyData2');
+					masterRemoveQAC('#talentFirstAgencyData3');
+
+					masterRemoveHREF('#talentSecondAgencyMail1');
+					masterRemoveHREF('#talentSecondAgencyMail2');
+					masterRemoveHREF('#talentSecondAgencyMail3');
+					masterRemoveQAC('#talentSecondAgencyName1');
+					masterRemoveQAC('#talentSecondAgencyName2');
+					masterRemoveQAC('#talentSecondAgencyName3');
+					masterRemoveQAC('#talentSecondAgencyData1');
+					masterRemoveQAC('#talentSecondAgencyData2');
+					masterRemoveQAC('#talentSecondAgencyData3');
+
 					// RESET TALENT FIRST QUESTION FLOW: DO YOU DRINK?
 					masterHideElement($('#talentFirstOption2'),0);
 					masterHideElement($('#talentFirstOption1'),150);
@@ -1232,6 +1419,14 @@ jQuery(document).ready(function($) {
 				$(insideOf).removeClass('fiveLineInfoMaster');
 				$(insideOf).removeClass('sixLineInfoMaster');
 				$(insideOf).removeClass('sevenLineInfoMaster');
+			}
+
+			function masterInsertHREF(insideOf, functionAgencyMail){
+				$(insideOf).attr('href', functionAgencyMail);
+			}
+
+			function masterRemoveHREF(insideOf){
+				$(insideOf).attr('href', '');
 			}
 		// END MASTER INSERT QAC
 	// END NAVIGATION FLOW
