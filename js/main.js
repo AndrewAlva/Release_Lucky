@@ -100,65 +100,97 @@ jQuery(document).ready(function($) {
 
 			// Continue Copys Variables
 				var clientC1, clientC2, clientC3, clientC4, clientC5, clientC6, clientC7, clientC8, talentC1, talentC2, talentC3, talentC4, talentC5, talentC6, talentC7, talentC8;
+
+			// Right or Wrong Attributes
+				var clientYesRW1, clientYesRW2, clientYesRW3, clientYesRW4, clientYesRW5, clientYesRW6, clientYesRW7, clientYesRW8, clientNoRW1, clientNoRW2, clientNoRW3, clientNoRW4, clientNoRW5, clientNoRW6, clientNoRW7, clientNoRW8;
+				var talentYesRW1, talentYesRW2, talentYesRW3, talentYesRW4, talentYesRW5, talentYesRW6, talentYesRW7, talentYesRW8, talentNoRW1, talentNoRW2, talentNoRW3, talentNoRW4, talentNoRW5, talentNoRW6, talentNoRW7, talentNoRW8;
 		// END DECLARING Q, A & C VARIABLES
 
 
 
 		// CLIENT QUESTION PACK
 			// QUESTION 1
-				clientQ1 = '<h1>1. ¿?</h1>';
+				clientQ1 = '<h1>1. ¿Estás buscando agencias con nombres propios, en la que nunca vas a conocer al Director, del director, del director del director?</h1>';
 				// ANSWER
-				clientA1 = '<h1>1. Te recomendamos.</h1>';
+				clientA1 = '<h1>1. No dudamos que son muy buenas agencias, pero son tan grandes que sus procesos son tan largos como su reacción frente a un cambio. Te podemos recomendar.</h1>';
 				// CONTINUE COPY
 				clientC1 = '<h5>1. Descúbrenos.</h5>';
+				// RIGHT OR WRONG YES ATTRIBUTE
+				clientYesRW1 = 'wrong';
+				// RIGHT OR WRONG NO ATTRIBUTE
+				clientNoRW1 = 'right';
 			// END QUESTION 1
 
 			// QUESTION 2
-				clientQ2 = '<h1>2. ¿?</h1>';
+				clientQ2 = '<h1>2. ¿Quieres una agencia con muchos premios y un nombre complicadón de pronunciar?</h1>';
 				// ANSWER
-				clientA2 = '<h1>2. Te recomendamos.</h1>';
+				clientA2 = '<h1>2. Aquí tenemos que ser sinceros, no tenemos ningún premio. Sin embargo, ninguna de estas grandes agencias nació con ellos.</h1>';
 				// CONTINUE COPY
 				clientC2 = '<h5>2. Descúbrenos.</h5>';
+				// RIGHT OR WRONG YES ATTRIBUTE
+				clientYesRW2 = 'wrong';
+				// RIGHT OR WRONG NO ATTRIBUTE
+				clientNoRW2 = 'right';
 			// END QUESTION 2
 
 			// QUESTION 3
-				clientQ3 = '<h1>3. ¿?</h1>';
+				clientQ3 = '<h1>3. ¿Estás buscando una agencia 100% digital, independiente, joven, fresca, como nosotros 😉 ?</h1>';
 				// ANSWER
-				clientA3 = '<h1>3. Te recomendamos.</h1>';
+				clientA3 = '<h1>3. Bueno sabemos que no somos ellos, pero Roma no se construyó en un día, dale tiempo al tiempo.</h1>';
 				// CONTINUE COPY
 				clientC3 = '<h5>3. Descúbrenos.</h5>';
+				// RIGHT OR WRONG YES ATTRIBUTE
+				clientYesRW3 = 'right';
+				// RIGHT OR WRONG NO ATTRIBUTE
+				clientNoRW3 = 'wrong';
 			// END QUESTION 3
 
 			// QUESTION 4
-				clientQ4 = '<h1>4. ¿?</h1>';
+				clientQ4 = '<h1>4. ¿Buscas una agencia de moda cueste lo que cueste?</h1>';
 				// ANSWER
-				clientA4 = '<h1>4. Te recomendamos.</h1>';
+				clientA4 = '<h1>4. Las modas son pasajeras pero reconocemos que el <span class="highlightIt">ATREVERSE</span> tiene su recompensa y nosotros buscamos a alguien que se atreva con nosotros.</h1>';
 				// CONTINUE COPY
 				clientC4 = '<h5>4. Descúbrenos.</h5>';
+				// RIGHT OR WRONG YES ATTRIBUTE
+				clientYesRW4 = 'wrong';
+				// RIGHT OR WRONG NO ATTRIBUTE
+				clientNoRW4 = 'right';
 			// END QUESTION 4
 
 			// QUESTION 5
-				clientQ5 = '<h1>5. ¿?</h1>';
+				clientQ5 = '<h1>5. ¿Quieres una agencia con la que trabajó tu abuelo?</h1>';
 				// ANSWER
-				clientA5 = '<h1>5. Te recomendamos.</h1>';
+				clientA5 = '<h1>5. Ves, no somos nosotros es tu yo noventero. Por aquello de lo vintage puedes buscar a alguna de las siguientes agencias.</h1>';
 				// CONTINUE COPY
 				clientC5 = '<h5>5. Descúbrenos.</h5>';
+				// RIGHT OR WRONG YES ATTRIBUTE
+				clientYesRW5 = 'wrong';
+				// RIGHT OR WRONG NO ATTRIBUTE
+				clientNoRW5 = 'right';
 			// END QUESTION 5
 
 			// QUESTION 6
-				clientQ6 = '<h1>6. ¿?</h1>';
+				clientQ6 = '<h1>6. ¿Buscas una agencia que le de mas valor a las “soluciones integrales” que a la creatividad?</h1>';
 				// ANSWER
-				clientA6 = '<h1>6. Te recomendamos.</h1>';
+				clientA6 = '<h1>6. Nosotros somos una agencia creativa, vendemos ideas, pero si lo que buscas es una buena ejecución, habla con:</h1>';
 				// CONTINUE COPY
 				clientC6 = '<h5>6. Descúbrenos.</h5>';
+				// RIGHT OR WRONG YES ATTRIBUTE
+				clientYesRW6 = 'wrong';
+				// RIGHT OR WRONG NO ATTRIBUTE
+				clientNoRW6 = 'right';
 			// END QUESTION 6
 
 			// QUESTION 7
-				clientQ7 = '<h1>7. ¿?</h1>';
+				clientQ7 = '<h1>7. ¿Crees en la publicidad funcional?</h1>';
 				// ANSWER
-				clientA7 = '<h1>7. Te recomendamos.</h1>';
+				clientA7 = '<h1>7. Nos hubiera gustado más el NO para decirte que nosotros somos Irreverentes, disruptivos y ambiciosos pero creemos que ellos te pueden ayudar:</h1>';
 				// CONTINUE COPY
 				clientC7 = '<h5>7. Descúbrenos.</h5>';
+				// RIGHT OR WRONG YES ATTRIBUTE
+				clientYesRW7 = 'wrong';
+				// RIGHT OR WRONG NO ATTRIBUTE
+				clientNoRW7 = 'right';
 			// END QUESTION 7
 
 			// QUESTION 8
@@ -167,6 +199,10 @@ jQuery(document).ready(function($) {
 				clientA8 = '<h1>8. Te recomendamos.</h1>';
 				// CONTINUE COPY
 				clientC8 = '<h5>8. Descúbrenos.</h5>';
+				// RIGHT OR WRONG YES ATTRIBUTE
+				clientYesRW8 = 'wrong';
+				// RIGHT OR WRONG NO ATTRIBUTE
+				clientNoRW8 = 'wrong';
 			// END QUESTION 8
 		// END CLIENT QUESTION PACK
 
@@ -177,6 +213,10 @@ jQuery(document).ready(function($) {
 				talentA1 = '<h1>1. Te recomendamos.</h1>';
 				// CONTINUE COPY
 				talentC1 = '<h5>1. Descúbrenos.</h5>';
+				// RIGHT OR WRONG YES ATTRIBUTE
+				talentYesRW1 = 'wrong';
+				// RIGHT OR WRONG NO ATTRIBUTE
+				talentNoRW1 = 'wrong';
 			// END QUESTION 1
 
 			// QUESTION 2
@@ -185,6 +225,10 @@ jQuery(document).ready(function($) {
 				talentA2 = '<h1>2. Te recomendamos.</h1>';
 				// CONTINUE COPY
 				talentC2 = '<h5>2. Descúbrenos.</h5>';
+				// RIGHT OR WRONG YES ATTRIBUTE
+				talentYesRW2 = 'wrong';
+				// RIGHT OR WRONG NO ATTRIBUTE
+				talentNoRW2 = 'wrong';
 			// END QUESTION 2
 
 			// QUESTION 3
@@ -193,6 +237,10 @@ jQuery(document).ready(function($) {
 				talentA3 = '<h1>3. Te recomendamos.</h1>';
 				// CONTINUE COPY
 				talentC3 = '<h5>3. Descúbrenos.</h5>';
+				// RIGHT OR WRONG YES ATTRIBUTE
+				talentYesRW3 = 'wrong';
+				// RIGHT OR WRONG NO ATTRIBUTE
+				talentNoRW3 = 'wrong';
 			// END QUESTION 3
 
 			// QUESTION 4
@@ -201,6 +249,10 @@ jQuery(document).ready(function($) {
 				talentA4 = '<h1>4. Te recomendamos.</h1>';
 				// CONTINUE COPY
 				talentC4 = '<h5>4. Descúbrenos.</h5>';
+				// RIGHT OR WRONG YES ATTRIBUTE
+				talentYesRW4 = 'wrong';
+				// RIGHT OR WRONG NO ATTRIBUTE
+				talentNoRW4 = 'wrong';
 			// END QUESTION 4
 
 			// QUESTION 5
@@ -209,6 +261,10 @@ jQuery(document).ready(function($) {
 				talentA5 = '<h1>5. Te recomendamos.</h1>';
 				// CONTINUE COPY
 				talentC5 = '<h5>5. Descúbrenos.</h5>';
+				// RIGHT OR WRONG YES ATTRIBUTE
+				talentYesRW5 = 'wrong';
+				// RIGHT OR WRONG NO ATTRIBUTE
+				talentNoRW5 = 'wrong';
 			// END QUESTION 5
 
 			// QUESTION 6
@@ -217,6 +273,10 @@ jQuery(document).ready(function($) {
 				talentA6 = '<h1>6. Te recomendamos.</h1>';
 				// CONTINUE COPY
 				talentC6 = '<h5>6. Descúbrenos.</h5>';
+				// RIGHT OR WRONG YES ATTRIBUTE
+				talentYesRW6 = 'wrong';
+				// RIGHT OR WRONG NO ATTRIBUTE
+				talentNoRW6 = 'wrong';
 			// END QUESTION 6
 
 			// QUESTION 7
@@ -225,6 +285,10 @@ jQuery(document).ready(function($) {
 				talentA7 = '<h1>7. Te recomendamos.</h1>';
 				// CONTINUE COPY
 				talentC7 = '<h5>7. Descúbrenos.</h5>';
+				// RIGHT OR WRONG YES ATTRIBUTE
+				talentYesRW7 = 'wrong';
+				// RIGHT OR WRONG NO ATTRIBUTE
+				talentNoRW7 = 'wrong';
 			// END QUESTION 7
 
 			// QUESTION 8
@@ -233,12 +297,16 @@ jQuery(document).ready(function($) {
 				talentA8 = '<h1>8. Te recomendamos.</h1>';
 				// CONTINUE COPY
 				talentC8 = '<h5>8. Descúbrenos.</h5>';
+				// RIGHT OR WRONG YES ATTRIBUTE
+				talentYesRW8 = 'wrong';
+				// RIGHT OR WRONG NO ATTRIBUTE
+				talentNoRW8 = 'wrong';
 			// END QUESTION 8
 		// END TALENT QUESTION PACK
 
 
 
-		// INSERTING QUESTIONS AND ANSWERS
+		// INSERTING QUESTIONS, ANSWERS, COPIES AND RIGHT|WRONG
 			var questionsClient = [clientQ1,clientQ2,clientQ3,clientQ4,clientQ5,clientQ6,clientQ7,clientQ8];
 			var questionsTalent = [talentQ1,talentQ2,talentQ3,talentQ4,talentQ5,talentQ6,talentQ7,talentQ8];
 
@@ -247,7 +315,23 @@ jQuery(document).ready(function($) {
 
 			var copiesClient = [clientC1,clientC2,clientC3,clientC4,clientC5,clientC6,clientC7,clientC8];
 			var copiesTalent = [talentC1,talentC2,talentC3,talentC4,talentC5,talentC6,talentC7,talentC8];
-		// END INSERTING QUESTIONS AND ANSWERS
+
+			var yesRightWrongClient = [clientYesRW1,clientYesRW2,clientYesRW3,clientYesRW4,clientYesRW5,clientYesRW6,clientYesRW7,clientYesRW8];
+			var noRightWrongClient  = [clientNoRW1,clientNoRW2,clientNoRW3,clientNoRW4,clientNoRW5,clientNoRW6,clientNoRW7,clientNoRW8];
+
+			var yesRightWrongTalent = [talentYesRW1,talentYesRW2,talentYesRW3,talentYesRW4,talentYesRW5,talentYesRW6,talentYesRW7,talentYesRW8];
+			var noRightWrongTalent  = [talentNoRW1,talentNoRW2,talentNoRW3,talentNoRW4,talentNoRW5,talentNoRW6,talentNoRW7,talentNoRW8];
+
+				masterInsertATTR($('#clientFirstYes'), yesRightWrongClient[selectedClientQAC1]);
+				masterInsertATTR($('#clientSecondYes'), yesRightWrongClient[selectedClientQAC2]);
+				masterInsertATTR($('#clientFirstNo'), noRightWrongClient[selectedClientQAC1]);
+				masterInsertATTR($('#clientSecondNo'), noRightWrongClient[selectedClientQAC2]);
+
+				masterInsertATTR($('#talentFirstYes'), yesRightWrongTalent[selectedTalentQAC1]);
+				masterInsertATTR($('#talentSecondYes'), yesRightWrongTalent[selectedTalentQAC2]);
+				masterInsertATTR($('#talentFirstNo'), noRightWrongTalent[selectedTalentQAC1]);
+				masterInsertATTR($('#talentSecondNo'), noRightWrongTalent[selectedTalentQAC2]);
+		// END INSERTING QUESTIONS, ANSWERS, COPIES AND RIGHT|WRONG
 	// END SET PACK OF QUESTIONS, ANSWERS AND COPIES
 
 
@@ -387,80 +471,105 @@ jQuery(document).ready(function($) {
 
 			
 		// AGENCIES INFO: NAME AND CONTACT DATA
-			agencyName1 = '1. Agency Name';
-			agencyName2 = '2. Agency Name';
-			agencyName3 = '3. Agency Name';
-			agencyName4 = '4. Agency Name';
-			agencyName5 = '5. Agency Name';
-			agencyName6 = '6. Agency Name';
-			agencyName7 = '7. Agency Name';
-			agencyName8 = '8. Agency Name';
-			agencyName9 = '9. Agency Name';
-			agencyName10 = '10. Agency Name';
-			agencyName11 = '11. Agency Name';
-			agencyName12 = '12. Agency Name';
-			agencyName13 = '13. Agency Name';
-			agencyName14 = '14. Agency Name';
-			agencyName15 = '15. Agency Name';
-			agencyName16 = '16. Agency Name';
-			agencyName17 = '17. Agency Name';
-			agencyName18 = '18. Agency Name';
-			agencyName19 = '19. Agency Name';
-			agencyName20 = '20. Agency Name';
-			agencyName21 = '21. Agency Name';
+			agencyName1 = '1. Ogilvy';
+			agencyName2 = '2. Leo Burnett';
+			agencyName3 = '3. Terán\TBWA';
+
+			agencyName4 = '4. BBDO';
+			agencyName5 = '5. DDB';
+			agencyName6 = '6. JWT';
+
+			agencyName7 = '7. Grupo W';
+			agencyName8 = '8. Gelattina';
+			agencyName9 = '9. Flock';
+
+			agencyName10 = '10. Anónimo';
+			agencyName11 = '11. Bombay';
+			agencyName12 = '12. La Doble Vida';
+
+			agencyName13 = '13. Publidosa';
+			agencyName14 = '14. Aguinaga';
+			agencyName15 = '15. Oropeza';
+
+			agencyName16 = '16. KP';
+			agencyName17 = '17. Vértice';
+			agencyName18 = '18. Alquimia';
+
+			agencyName19 = '19. Esfera';
+			agencyName20 = '20. Mishtech';
+			agencyName21 = '21. Cerocuatro';
+
 			agencyName22 = '22. Agency Name';
 			agencyName23 = '23. Agency Name';
 			agencyName24 = '24. Agency Name';
 
+
+
 			agencyData1 = '<span class="boldMobile"> 1. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
-			agencyData2 = '<span class="boldMobile"> 2. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
-			agencyData3 = '<span class="boldMobile"> 3. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
-			agencyData4 = '<span class="boldMobile"> 4. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
-			agencyData5 = '<span class="boldMobile"> 5. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
-			agencyData6 = '<span class="boldMobile"> 6. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
-			agencyData7 = '<span class="boldMobile"> 7. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+			agencyData2 = '<span class="boldMobile"> 2. Leo Burnett </span> <br> Pablo de Arteaga <br> CEO <br> http://www.leoburnett.com/';
+			agencyData3 = '<span class="boldMobile"> 3. Terán\TBWA </span> <br> José Alberto Terán <br> CEO <br> http://www.terantbwa.com.mx/';
+
+			agencyData4 = '<span class="boldMobile"> 4. BBDO </span> <br> Carlos Vaca <br> CEO <br> http://www.bbdomexico.com/es';
+			agencyData5 = '<span class="boldMobile"> 5. DDB </span> <br> Matías del Campo <br> CEO <br> http://ddbmexico.com/';
+			agencyData6 = '<span class="boldMobile"> 6. JWT </span> <br> Mariate Arnal <br> CEO <br> https://www.jwt.com/mexicocity/';
+
+			agencyData7 = '<span class="boldMobile"> 7. Grupo W </span> <br> Ulises Valencia <br> Director <br> uvalencia@grupow.com';
 			agencyData8 = '<span class="boldMobile"> 8. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
-			agencyData9 = '<span class="boldMobile"> 9. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
-			agencyData10 = '<span class="boldMobile"> 10. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+			agencyData9 = '<span class="boldMobile"> 9. Flock </span> <br> Sebastian Tonda <br> CEO <br> http://flock.mx/';
+
+			agencyData10 = '<span class="boldMobile"> 10. Anónimo </span> <br> Raúl Cardós <br> Fundador <br> raul@anonimo.mx';
 			agencyData11 = '<span class="boldMobile"> 11. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
 			agencyData12 = '<span class="boldMobile"> 12. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+
 			agencyData13 = '<span class="boldMobile"> 13. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
 			agencyData14 = '<span class="boldMobile"> 14. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
 			agencyData15 = '<span class="boldMobile"> 15. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
-			agencyData16 = '<span class="boldMobile"> 16. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
-			agencyData17 = '<span class="boldMobile"> 17. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
-			agencyData18 = '<span class="boldMobile"> 18. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
-			agencyData19 = '<span class="boldMobile"> 19. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
-			agencyData20 = '<span class="boldMobile"> 20. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
-			agencyData21 = '<span class="boldMobile"> 21. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+
+			agencyData16 = '<span class="boldMobile"> 16. KP </span> <br> Hugo Pulido <br> Fundador <br> pulido@kp.com.mx';
+			agencyData17 = '<span class="boldMobile"> 17. Vértice </span> <br> Javier Álvarez <br> CEO <br> javier.alvarez@verticecom.com';
+			agencyData18 = '<span class="boldMobile"> 18. Alquimia </span> <br> Alejandro Rodríguez <br> Director General <br> alvidrez@alquimiag.com';
+
+			agencyData19 = '<span class="boldMobile"> 19. Esfera </span> <br> Luis Alberto Purata García <br> Director Asociado <br> luis.purata@esfera.cc';
+			agencyData20 = '<span class="boldMobile"> 20. Mishtech </span> <br> Edgardo López <br> Position <br> edgardo@mishtech.com';
+			agencyData21 = '<span class="boldMobile"> 21. Cerocuatro </span> <br> Rodrigo Noriega <br> Director General <br> rodrigo.noriega@cerocuatro.com';
+
 			agencyData22 = '<span class="boldMobile"> 22. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
 			agencyData23 = '<span class="boldMobile"> 23. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
 			agencyData24 = '<span class="boldMobile"> 24. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
 
-			agencyMail1 = '1. mailto:ceo@mail.com'
-			agencyMail2 = '2. mailto:ceo@mail.com'
-			agencyMail3 = '3. mailto:ceo@mail.com'
-			agencyMail4 = '4. mailto:ceo@mail.com'
-			agencyMail5 = '5. mailto:ceo@mail.com'
-			agencyMail6 = '6. mailto:ceo@mail.com'
-			agencyMail7 = '7. mailto:ceo@mail.com'
-			agencyMail8 = '8. mailto:ceo@mail.com'
-			agencyMail9 = '9. mailto:ceo@mail.com'
-			agencyMail10 = '10. mailto:ceo@mail.com'
-			agencyMail11 = '11. mailto:ceo@mail.com'
-			agencyMail12 = '12. mailto:ceo@mail.com'
-			agencyMail13 = '13. mailto:ceo@mail.com'
-			agencyMail14 = '14. mailto:ceo@mail.com'
-			agencyMail15 = '15. mailto:ceo@mail.com'
-			agencyMail16 = '16. mailto:ceo@mail.com'
-			agencyMail17 = '17. mailto:ceo@mail.com'
-			agencyMail18 = '18. mailto:ceo@mail.com'
-			agencyMail19 = '19. mailto:ceo@mail.com'
-			agencyMail20 = '20. mailto:ceo@mail.com'
-			agencyMail21 = '21. mailto:ceo@mail.com'
-			agencyMail22 = '22. mailto:ceo@mail.com'
-			agencyMail23 = '23. mailto:ceo@mail.com'
-			agencyMail24 = '24. mailto:ceo@mail.com'
+
+
+			agencyMail1 = '1. mailto:ceo@mail.com';
+			agencyMail2 = '2. http://www.leoburnett.com/';
+			agencyMail3 = '3. http://www.terantbwa.com.mx/';
+
+			agencyMail4 = '4. http://www.bbdomexico.com/es';
+			agencyMail5 = '5. http://ddbmexico.com/';
+			agencyMail6 = '6. https://www.jwt.com/mexicocity/';
+
+			agencyMail7 = '7. mailto:uvalencia@grupow.com';
+			agencyMail8 = '8. mailto:ceo@mail.com';
+			agencyMail9 = '9. http://flock.mx/';
+
+			agencyMail10 = '10. mailto:raul@anonimo.mx';
+			agencyMail11 = '11. mailto:ceo@mail.com';
+			agencyMail12 = '12. mailto:ceo@mail.com';
+
+			agencyMail13 = '13. mailto:ceo@mail.com';
+			agencyMail14 = '14. mailto:ceo@mail.com';
+			agencyMail15 = '15. mailto:ceo@mail.com';
+
+			agencyMail16 = '16. mailto:pulido@kp.com.mx';
+			agencyMail17 = '17. mailto:javier.alvarez@verticecom.com';
+			agencyMail18 = '18. mailto:alvidrez@alquimiag.com';
+
+			agencyMail19 = '19. mailto:luis.purata@esfera.cc';
+			agencyMail20 = '20. mailto:edgardo@mishtech.com';
+			agencyMail21 = '21. mailto:rodrigo.noriega@cerocuatro.com';
+
+			agencyMail22 = '22. mailto:ceo@mail.com';
+			agencyMail23 = '23. mailto:ceo@mail.com';
+			agencyMail24 = '24. mailto:ceo@mail.com';
 		// END AGENCIES INFO
 		
 
@@ -506,6 +615,11 @@ jQuery(document).ready(function($) {
 
 					masterResetLucky();
 					masterCloseCurtain();
+
+					masterInsertATTR($('#clientFirstYes'), yesRightWrongClient[selectedClientQAC1]);
+					masterInsertATTR($('#clientSecondYes'), yesRightWrongClient[selectedClientQAC2]);
+					masterInsertATTR($('#clientFirstNo'), noRightWrongClient[selectedClientQAC1]);
+					masterInsertATTR($('#clientSecondNo'), noRightWrongClient[selectedClientQAC2]);
 
 					setTimeout(function(){
 						$('.welcomeLogoToPush').addClass('pushWelcomeLogo');
@@ -560,6 +674,11 @@ jQuery(document).ready(function($) {
 				if(curtEnd){
 					masterResetLucky();
 					masterCloseCurtain();
+
+					masterInsertATTR($('#talentFirstYes'), yesRightWrongTalent[selectedTalentQAC1]);
+					masterInsertATTR($('#talentSecondYes'), yesRightWrongTalent[selectedTalentQAC2]);
+					masterInsertATTR($('#talentFirstNo'), noRightWrongTalent[selectedTalentQAC1]);
+					masterInsertATTR($('#talentSecondNo'), noRightWrongTalent[selectedTalentQAC2]);
 
 					setTimeout(function(){
 						$('.welcomeLogoToPush').addClass('pushWelcomeLogo');
@@ -673,7 +792,8 @@ jQuery(document).ready(function($) {
 
 				// FIRST QUESTION FLOW
 					// A) I'M LOOKING TO CONNECT WITH MY TARGET
-						$('#clientFirstYes').click(function() {
+						$('.clientFirstYesNoOptions[correct="wrong"]').click(function() {
+						// $('#clientFirstYes').click(function() {
 							masterHideElement($('#clientFirstOption2'),0);
 							masterHideElement($('#clientFirstOption1'),200);
 							masterHideElement($('#clientFirstQuestion'),450);
@@ -722,7 +842,8 @@ jQuery(document).ready(function($) {
 						// END A)1) END NEXT SLIDE
 
 					// B) NOT TO CONNECT WITH MY TARGET
-						$('#clientFirstNo').click(function() {
+						$('.clientFirstYesNoOptions[correct="right"]').click(function() {
+						// $('#clientFirstNo').click(function() {
 							masterHideElement($('#clientFirstOption2'),0);
 							masterHideElement($('#clientFirstOption1'),200);
 							masterHideElement($('#clientFirstQuestion'),450);
@@ -741,7 +862,8 @@ jQuery(document).ready(function($) {
 
 				// SECOND QUESTION FLOW
 					// A) I'M AFRAID OF TAKING RISKS
-						$('#clientSecondYes').click(function() {
+						$('.clientSecondYesNoOptions[correct="wrong"]').click(function() {
+						// $('#clientSecondYes').click(function() {
 							masterHideElement($('#clientSecondOption2'),0);
 							masterHideElement($('#clientSecondOption1'),200);
 							masterHideElement($('#clientSecondQuestion'),450);
@@ -787,7 +909,8 @@ jQuery(document).ready(function($) {
 						// END A)1) NEXT
 
 					// B) I'M NOT AFRAID
-						$('#clientSecondNo').click(function() {
+						$('.clientSecondYesNoOptions[correct="right"]').click(function() {
+						// $('#clientSecondNo').click(function() {
 							masterHideElement($('#clientSecondOption2'),0);
 							masterHideElement($('#clientSecondOption1'),200);
 							masterHideElement($('#clientSecondQuestion'),450);
@@ -936,7 +1059,8 @@ jQuery(document).ready(function($) {
 
 			// FIRST QUESTION FLOW
 				// A) I LIKE TO DRINK
-					$('#talentFirstYes').click(function() {
+					$('.talentFirstYesNoOptions[correct="right"]').click(function() {
+					// $('#talentFirstYes').click(function() {
 						masterHideElement($('#talentFirstOption2'),0);
 						masterHideElement($('#talentFirstOption1'),200);
 						masterHideElement($('#talentFirstQuestion'),450);
@@ -952,7 +1076,8 @@ jQuery(document).ready(function($) {
 				// END A) I DRINK
 
 				// B) I DON'T DRINK
-					$('#talentFirstNo').click(function() {
+					$('.talentFirstYesNoOptions[correct="wrong"]').click(function() {
+					// $('#talentFirstNo').click(function() {
 						masterHideElement($('#talentFirstOption2'),0);
 						masterHideElement($('#talentFirstOption1'),200);
 						masterHideElement($('#talentFirstQuestion'),450);
@@ -1003,7 +1128,8 @@ jQuery(document).ready(function($) {
 
 			// SECOND QUESTION FLOW
 				// A) I WON'T STAY AFTER 7PM
-					$('#talentSecondYes').click(function() {
+					$('.talentSecondYesNoOptions[correct="wrong"]').click(function() {
+					// $('#talentSecondYes').click(function() {
 						masterHideElement($('#talentSecondOption2'),0);
 						masterHideElement($('#talentSecondOption1'),200);
 						masterHideElement($('#talentSecondQuestion'),450);
@@ -1050,7 +1176,8 @@ jQuery(document).ready(function($) {
 					// END A)1) END NEXT SLIDE
 
 				// B) I WILL STAY, I'M PASSIONATE
-					$('#talentSecondNo').click(function() {
+					$('.talentSecondYesNoOptions[correct="right"]').click(function() {
+					// $('#talentSecondNo').click(function() {
 						masterHideElement($('#talentSecondOption2'),0);
 						masterHideElement($('#talentSecondOption1'),200);
 						masterHideElement($('#talentSecondQuestion'),450);
@@ -1250,6 +1377,12 @@ jQuery(document).ready(function($) {
 					masterRemoveQAC('#clientSecondAgencyData2');
 					masterRemoveQAC('#clientSecondAgencyData3');
 
+					masterRemoveATTR($('#clientFirstYes'));
+					masterRemoveATTR($('#clientFirstNo'));
+					masterRemoveATTR($('#clientSecondYes'));
+					masterRemoveATTR($('#clientSecondNo'));
+
+
 					// RESET CLIENT FIRST QUESTION FLOW: CONNECT?
 					masterHideElement($('#clientFirstOption2'),0);
 					masterHideElement($('#clientFirstOption1'),200);
@@ -1348,6 +1481,11 @@ jQuery(document).ready(function($) {
 					masterRemoveQAC('#talentSecondAgencyData2');
 					masterRemoveQAC('#talentSecondAgencyData3');
 
+					masterRemoveATTR($('#talentFirstYes'));
+					masterRemoveATTR($('#talentFirstNo'));
+					masterRemoveATTR($('#talentSecondYes'));
+					masterRemoveATTR($('#talentSecondNo'));
+
 					// RESET TALENT FIRST QUESTION FLOW: DO YOU DRINK?
 					masterHideElement($('#talentFirstOption2'),0);
 					masterHideElement($('#talentFirstOption1'),150);
@@ -1429,6 +1567,16 @@ jQuery(document).ready(function($) {
 				$(insideOf).attr('href', '');
 			}
 		// END MASTER INSERT QAC
+
+		// MASTER INSERT/REMOVE ATTRIBUTE RIGHT OR WRONG
+			function masterInsertATTR(insertHere, valueForAttr){
+				$(insertHere).attr('correct', valueForAttr);
+			}
+
+			function masterRemoveATTR(cleanThis){
+				$(cleanThis).attr('correct', '');
+			}
+		// END MASTER INSERT/REMOVE ATTRIBUTE RIGHT OR WRONG
 	// END NAVIGATION FLOW
 
 
