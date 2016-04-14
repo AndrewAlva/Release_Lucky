@@ -470,6 +470,9 @@ body{
             background-color: #0c171f;
             color: #fff;
         }
+        .emojiHere{
+            font-weight: 300 !important;
+        }
 
             /*// INFO MASTER //*/
                 #infoMasterWrapper{

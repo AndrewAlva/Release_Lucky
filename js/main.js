@@ -110,9 +110,9 @@ jQuery(document).ready(function($) {
 
 		// CLIENT QUESTION PACK
 			// QUESTION 1
-				clientQ1 = '<h1>1. ¿Estás buscando agencias con nombres propios, en la que nunca vas a conocer al Director, del director, del director del director?</h1>';
+				clientQ1 = '<h1>1. ¿Estás buscando <br> agencias con nombres <br> propios, en la que <br> <span class="highlightIt">nunca vas a conocer</span> <br> al Director, del director, <br> del director del director?</h1>';
 				// ANSWER
-				clientA1 = '<h1>1. No dudamos que son muy buenas agencias, pero son tan grandes que sus procesos son tan largos como su reacción frente a un cambio. Te podemos recomendar.</h1>';
+				clientA1 = '<h1>1. No dudamos que son muy <br> buenas agencias, pero <br> son tan grandes que <br> sus procesos son tan <br> largos como su <span class="highlightIt">reacción</span> <br> frente a un cambio. <br> Te podemos recomendar.</h1>';
 				// CONTINUE COPY
 				clientC1 = '<h5>1. Descúbrenos.</h5>';
 				// RIGHT OR WRONG YES ATTRIBUTE
@@ -122,9 +122,9 @@ jQuery(document).ready(function($) {
 			// END QUESTION 1
 
 			// QUESTION 2
-				clientQ2 = '<h1>2. ¿Quieres una agencia con muchos premios y un nombre complicadón de pronunciar?</h1>';
+				clientQ2 = '<h1>2. ¿Quieres una <br> agencia con muchos <br> <span class="highlightIt">premios</span> y un nombre <br> complicadón de <br> pronunciar?</h1>';
 				// ANSWER
-				clientA2 = '<h1>2. Aquí tenemos que ser sinceros, no tenemos ningún premio. Sin embargo, ninguna de estas grandes agencias nació con ellos.</h1>';
+				clientA2 = '<h1>2. Aquí tenemos que <br> ser sinceros, no tenemos <br> ningún premio. Sin embargo, <br> <span class="highlightIt">ninguna</span> de estas grandes <br> agencias nació con ellos.</h1>';
 				// CONTINUE COPY
 				clientC2 = '<h5>2. Descúbrenos.</h5>';
 				// RIGHT OR WRONG YES ATTRIBUTE
@@ -134,9 +134,9 @@ jQuery(document).ready(function($) {
 			// END QUESTION 2
 
 			// QUESTION 3
-				clientQ3 = '<h1>3. ¿Estás buscando una agencia 100% digital, independiente, joven, fresca, como nosotros 😉 ?</h1>';
+				clientQ3 = '<h1>3. ¿Estás buscando una <br> <span class="highlightIt">agencia 100% digital,</span> <br> independiente, joven y <br> fresca, como nosotros <span class="emojiHere">😉</span>?</h1>';
 				// ANSWER
-				clientA3 = '<h1>3. Bueno sabemos que no somos ellos, pero Roma no se construyó en un día, dale tiempo al tiempo.</h1>';
+				clientA3 = '<h1>3. Bueno sabemos que <br> no somos ellos, pero <br> <span class="highlightIt">Roma</span> no se construyó <br> en un día, dale tiempo <br> al tiempo.</h1>';
 				// CONTINUE COPY
 				clientC3 = '<h5>3. Descúbrenos.</h5>';
 				// RIGHT OR WRONG YES ATTRIBUTE
@@ -146,9 +146,9 @@ jQuery(document).ready(function($) {
 			// END QUESTION 3
 
 			// QUESTION 4
-				clientQ4 = '<h1>4. ¿Buscas una agencia de moda cueste lo que cueste?</h1>';
+				clientQ4 = '<h1>4. ¿Buscas una agencia <br> <span class="highlightIt">de moda</span> cueste lo que <br> cueste?</h1>';
 				// ANSWER
-				clientA4 = '<h1>4. Las modas son pasajeras pero reconocemos que el <span class="highlightIt">ATREVERSE</span> tiene su recompensa y nosotros buscamos a alguien que se atreva con nosotros.</h1>';
+				clientA4 = '<h1>4. Las modas son pasajeras <br> pero reconocemos que el <br> <span class="highlightIt">ATREVERSE</span> tiene su <br> recompensa y nosotros <br> buscamos a alguien que <br> se atreva con nosotros.</h1>';
 				// CONTINUE COPY
 				clientC4 = '<h5>4. Descúbrenos.</h5>';
 				// RIGHT OR WRONG YES ATTRIBUTE
@@ -158,9 +158,9 @@ jQuery(document).ready(function($) {
 			// END QUESTION 4
 
 			// QUESTION 5
-				clientQ5 = '<h1>5. ¿Quieres una agencia con la que trabajó tu abuelo?</h1>';
+				clientQ5 = '<h1>5. ¿Quieres una <br> agencia con la que <br> trabajó tu <span class="highlightIt">abuelo?</span></h1>';
 				// ANSWER
-				clientA5 = '<h1>5. Ves, no somos nosotros es tu yo noventero. Por aquello de lo vintage puedes buscar a alguna de las siguientes agencias.</h1>';
+				clientA5 = '<h1>5. Ves, no somos <br> nosotros es tu <br> <span class="highlightIt">yo noventero.</span> <br> Por aquello de <br> lo vintage puedes <br> buscar a alguna de <br> las siguientes agencias.</h1>';
 				// CONTINUE COPY
 				clientC5 = '<h5>5. Descúbrenos.</h5>';
 				// RIGHT OR WRONG YES ATTRIBUTE
@@ -170,9 +170,9 @@ jQuery(document).ready(function($) {
 			// END QUESTION 5
 
 			// QUESTION 6
-				clientQ6 = '<h1>6. ¿Buscas una agencia que le de mas valor a las “soluciones integrales” que a la creatividad?</h1>';
+				clientQ6 = '<h1>6. ¿Buscas una agencia <br> que le de mas valor a las <br> <span class="highlightIt">“soluciones integrales”</span> <br> que a la creatividad?</h1>';
 				// ANSWER
-				clientA6 = '<h1>6. Nosotros somos una agencia creativa, vendemos ideas, pero si lo que buscas es una buena ejecución, habla con:</h1>';
+				clientA6 = '<h1>6. Nosotros somos una <br> <span class="highlightIt">agencia creativa,</span> <br> vendemos ideas, <br> pero si lo que buscas <br> es una buena ejecución, <br> habla con:</h1>';
 				// CONTINUE COPY
 				clientC6 = '<h5>6. Descúbrenos.</h5>';
 				// RIGHT OR WRONG YES ATTRIBUTE
@@ -182,9 +182,9 @@ jQuery(document).ready(function($) {
 			// END QUESTION 6
 
 			// QUESTION 7
-				clientQ7 = '<h1>7. ¿Crees en la publicidad funcional?</h1>';
+				clientQ7 = '<h1>7. ¿Crees en la <br> <span class="highlightIt">publicidad funcional?</span></h1>';
 				// ANSWER
-				clientA7 = '<h1>7. Nos hubiera gustado más el NO para decirte que nosotros somos Irreverentes, disruptivos y ambiciosos pero creemos que ellos te pueden ayudar:</h1>';
+				clientA7 = '<h1>7. Nos hubiera gustado <br> más el NO para decirte <br> que nosotros somos <br> <span class="highlightIt">Irreverentes, disruptivos <br> y ambiciosos</span> pero creemos <br> que ellos te pueden ayudar:</h1>';
 				// CONTINUE COPY
 				clientC7 = '<h5>7. Descúbrenos.</h5>';
 				// RIGHT OR WRONG YES ATTRIBUTE
@@ -348,38 +348,38 @@ jQuery(document).ready(function($) {
 		// CLASSES PACKS
 			// HEIGHT CLIENT PACK
 				// HEIGHT CLIENT 1
-					heightClientQ1 = 'oneLineInfoMaster';
-					heightClientA1 = 'oneLineInfoMaster';
+					heightClientQ1 = 'sixLineInfoMaster';
+					heightClientA1 = 'sevenLineInfoMaster';
 				// END HEIGHT CLIENT 1
 
 				// HEIGHT CLIENT 2
-					heightClientQ2 = 'oneLineInfoMaster';
-					heightClientA2 = 'oneLineInfoMaster';
+					heightClientQ2 = 'fiveLineInfoMaster';
+					heightClientA2 = 'fiveLineInfoMaster';
 				// END HEIGHT CLIENT 2
 
 				// HEIGHT CLIENT 3
-					heightClientQ3 = 'oneLineInfoMaster';
-					heightClientA3 = 'oneLineInfoMaster';
+					heightClientQ3 = 'fourLineInfoMaster';
+					heightClientA3 = 'fiveLineInfoMaster';
 				// END HEIGHT CLIENT 3
 
 				// HEIGHT CLIENT 4
-					heightClientQ4 = 'oneLineInfoMaster';
-					heightClientA4 = 'oneLineInfoMaster';
+					heightClientQ4 = 'threeLineInfoMaster';
+					heightClientA4 = 'sixLineInfoMaster';
 				// END HEIGHT CLIENT 4
 
 				// HEIGHT CLIENT 5
-					heightClientQ5 = 'oneLineInfoMaster';
-					heightClientA5 = 'oneLineInfoMaster';
+					heightClientQ5 = 'threeLineInfoMaster';
+					heightClientA5 = 'sevenLineInfoMaster';
 				// END HEIGHT CLIENT 5
 
 				// HEIGHT CLIENT 6
-					heightClientQ6 = 'oneLineInfoMaster';
-					heightClientA6 = 'oneLineInfoMaster';
+					heightClientQ6 = 'fourLineInfoMaster';
+					heightClientA6 = 'sixLineInfoMaster';
 				// END HEIGHT CLIENT 6
 
 				// HEIGHT CLIENT 7
-					heightClientQ7 = 'oneLineInfoMaster';
-					heightClientA7 = 'oneLineInfoMaster';
+					heightClientQ7 = 'twoLineInfoMaster';
+					heightClientA7 = 'sixLineInfoMaster';
 				// END HEIGHT CLIENT 7
 
 				// HEIGHT CLIENT 8
@@ -444,23 +444,6 @@ jQuery(document).ready(function($) {
 
 
 	// SET AGENCIES PACKS
-		// CLEAN AGENCIES DIVS TO INSERT NEW ONES
-			setTimeout(function(){
-				// masterRemoveQAC('#clientFirstAgency1');
-				// masterRemoveQAC('#clientFirstAgency2');
-				// masterRemoveQAC('#clientFirstAgency3');
-				// masterRemoveQAC('#clientSecondAgency1');
-				// masterRemoveQAC('#clientSecondAgency2');
-				// masterRemoveQAC('#clientSecondAgency3');
-
-				// masterRemoveQAC('#talentFirstAgency1');
-				// masterRemoveQAC('#talentFirstAgency2');
-				// masterRemoveQAC('#talentFirstAgency3');
-				// masterRemoveQAC('#talentSecondAgency1');
-				// masterRemoveQAC('#talentSecondAgency2');
-				// masterRemoveQAC('#talentSecondAgency3');
-			},1000);
-		// END CLEAN AGENCIES DIVS
 
 		// DECLARE AGENCIES NAME AND CONTACT DATA VARIABLES
 			// DECLARE AGENCIES DATA VARIABLES
@@ -505,7 +488,7 @@ jQuery(document).ready(function($) {
 
 
 
-			agencyData1 = '<span class="boldMobile"> 1. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+			agencyData1 = '<span class="boldMobile"> 1. Ogilvy & Mather </span> <br> Horacio Genolet <br> CEO México <br> horacio.genolet@ogilvy.com';
 			agencyData2 = '<span class="boldMobile"> 2. Leo Burnett </span> <br> Pablo de Arteaga <br> CEO <br> http://www.leoburnett.com/';
 			agencyData3 = '<span class="boldMobile"> 3. Terán\TBWA </span> <br> José Alberto Terán <br> CEO <br> http://www.terantbwa.com.mx/';
 
@@ -514,16 +497,16 @@ jQuery(document).ready(function($) {
 			agencyData6 = '<span class="boldMobile"> 6. JWT </span> <br> Mariate Arnal <br> CEO <br> https://www.jwt.com/mexicocity/';
 
 			agencyData7 = '<span class="boldMobile"> 7. Grupo W </span> <br> Ulises Valencia <br> Director <br> uvalencia@grupow.com';
-			agencyData8 = '<span class="boldMobile"> 8. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+			agencyData8 = '<span class="boldMobile"> 8. Gelattina </span> <br> Romeo Márquez Guzmán <br> CEO <br> romeo@gelattina.com';
 			agencyData9 = '<span class="boldMobile"> 9. Flock </span> <br> Sebastian Tonda <br> CEO <br> http://flock.mx/';
 
 			agencyData10 = '<span class="boldMobile"> 10. Anónimo </span> <br> Raúl Cardós <br> Fundador <br> raul@anonimo.mx';
-			agencyData11 = '<span class="boldMobile"> 11. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
-			agencyData12 = '<span class="boldMobile"> 12. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+			agencyData11 = '<span class="boldMobile"> 11. Bombay </span> <br> Miguel Ángel Ruiz <br> CEO <br> mike@bombaymexico.com';
+			agencyData12 = '<span class="boldMobile"> 12. La Doble Vida </span> <br> Manuel Camacho <br> Presidente <br> $$$';
 
-			agencyData13 = '<span class="boldMobile"> 13. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
-			agencyData14 = '<span class="boldMobile"> 14. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
-			agencyData15 = '<span class="boldMobile"> 15. Agency Name </span> <br> CEO Name <br> Position <br> ceo@mail.com';
+			agencyData13 = '<span class="boldMobile"> 13. Publidosa </span> <br> Guillermo Doddoli <br> CEO <br> guillermo@publidosa.com.mx';
+			agencyData14 = '<span class="boldMobile"> 14. Aguinaga </span> <br> Joaquin de Aguinaga <br> CEO <br> $$$';
+			agencyData15 = '<span class="boldMobile"> 15. Oropeza </span> <br> $CEO Name <br> $Position <br> $ceo@mail.com';
 
 			agencyData16 = '<span class="boldMobile"> 16. KP </span> <br> Hugo Pulido <br> Fundador <br> pulido@kp.com.mx';
 			agencyData17 = '<span class="boldMobile"> 17. Vértice </span> <br> Javier Álvarez <br> CEO <br> javier.alvarez@verticecom.com';
@@ -539,7 +522,7 @@ jQuery(document).ready(function($) {
 
 
 
-			agencyMail1 = '1. mailto:ceo@mail.com';
+			agencyMail1 = '1. mailto:horacio.genolet@ogilvy.com';
 			agencyMail2 = '2. http://www.leoburnett.com/';
 			agencyMail3 = '3. http://www.terantbwa.com.mx/';
 
@@ -548,16 +531,16 @@ jQuery(document).ready(function($) {
 			agencyMail6 = '6. https://www.jwt.com/mexicocity/';
 
 			agencyMail7 = '7. mailto:uvalencia@grupow.com';
-			agencyMail8 = '8. mailto:ceo@mail.com';
+			agencyMail8 = '8. mailto:romeo@gelattina.com';
 			agencyMail9 = '9. http://flock.mx/';
 
 			agencyMail10 = '10. mailto:raul@anonimo.mx';
-			agencyMail11 = '11. mailto:ceo@mail.com';
-			agencyMail12 = '12. mailto:ceo@mail.com';
+			agencyMail11 = '11. mailto:mike@bombaymexico.com';
+			agencyMail12 = '12. mailto:$$$';
 
-			agencyMail13 = '13. mailto:ceo@mail.com';
-			agencyMail14 = '14. mailto:ceo@mail.com';
-			agencyMail15 = '15. mailto:ceo@mail.com';
+			agencyMail13 = '13. mailto:guillermo@publidosa.com.mx';
+			agencyMail14 = '14. mailto:$$$';
+			agencyMail15 = '15. mailto:$ceo@mail.com';
 
 			agencyMail16 = '16. mailto:pulido@kp.com.mx';
 			agencyMail17 = '17. mailto:javier.alvarez@verticecom.com';
@@ -1303,37 +1286,37 @@ jQuery(document).ready(function($) {
 				
 
 				// ASSIGN NEW SHUFFLE
-					if (shuffled == 0){
-						selectedClientQAC1 = randomClientB[0];
-						selectedClientQAC2 = randomClientB[1];
+					// if (shuffled == 0){
+					// 	selectedClientQAC1 = randomClientB[0];
+					// 	selectedClientQAC2 = randomClientB[1];
 
-						selectedTalentQAC1 = randomTalentB[0];
-						selectedTalentQAC2 = randomTalentB[1];
+					// 	selectedTalentQAC1 = randomTalentB[0];
+					// 	selectedTalentQAC2 = randomTalentB[1];
 
-						shuffled += 1;
-						console.log('Shuffled!');
-					} else if(shuffled == 1) {
-						selectedClientQAC1 = randomClientC[0];
-						selectedClientQAC2 = randomClientC[1];
+					// 	shuffled += 1;
+					// 	console.log('Shuffled!');
+					// } else if(shuffled == 1) {
+					// 	selectedClientQAC1 = randomClientC[0];
+					// 	selectedClientQAC2 = randomClientC[1];
 
-						selectedTalentQAC1 = randomTalentC[0];
-						selectedTalentQAC2 = randomTalentC[1];
+					// 	selectedTalentQAC1 = randomTalentC[0];
+					// 	selectedTalentQAC2 = randomTalentC[1];
 
-						shuffled += 1;
-						console.log('Shuffled again!');
+					// 	shuffled += 1;
+					// 	console.log('Shuffled again!');
 
-					} else if (shuffled == 2) {
-						selectedClientQAC1 = randomClient[0];
-						selectedClientQAC2 = randomClient[1];
+					// } else if (shuffled == 2) {
+					// 	selectedClientQAC1 = randomClient[0];
+					// 	selectedClientQAC2 = randomClient[1];
 
-						selectedTalentQAC1 = randomTalent[0];
-						selectedTalentQAC2 = randomTalent[1];
+					// 	selectedTalentQAC1 = randomTalent[0];
+					// 	selectedTalentQAC2 = randomTalent[1];
 
-						shuffled = 0;
-						console.log('Un-Shuffled');
-					}
+					// 	shuffled = 0;
+					// 	console.log('Un-Shuffled');
+					// }
 
-					checkRandomOrder();
+					// checkRandomOrder();
 				// END NEW SHUFFLE
 
 				// SHOW INTRO
