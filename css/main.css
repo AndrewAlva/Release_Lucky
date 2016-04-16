@@ -1150,6 +1150,57 @@ body{
 /*///// END INSIDE CURRENT WINDOW /////*/
 
 
+/*///// CLIENTS MASTER STYLE /////*/
+    #masterClientsWrapper{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        overflow: scroll;
+    }
+
+        #masterClients{
+            position: absolute;
+            margin: auto;
+            top: 180px;
+            margin-bottom: 180px; 
+            left: 0; right: 0;
+            width: 77.77vw;
+            height: 44.44vw;
+            background-color: #e6e7e8;
+        }
+
+            #masterClients .clientsBox{
+                position: relative;
+                float: left;
+                display: inline-block;
+                width: 11.11vw;
+                height: 11.11vw;
+
+                -webkit-transition: all .4s ease-in-out;
+                   -moz-transition: all .4s ease-in-out;
+                    -ms-transition: all .4s ease-in-out;
+                     -o-transition: all .4s ease-in-out;
+                        transition: all .4s ease-in-out;
+            }
+                #masterClients .clientsBox img{
+                    position: absolute;
+                    margin: auto;
+                    top: 0; bottom: 0; left: 0; right: 0;
+                    width: 80%;
+                    height: 80%;
+                }
+
+            #client1, #client12, #client14{
+                width: 22.22vw !important;
+            }
+                #client1 img, #client12 img, #client14 img{
+                    width: 90% !important;
+                }
+
+
+/*///// END CLIENTS MASTER STYLE /////*/
+
+
 
 
 
@@ -1741,6 +1792,27 @@ body{
                     height: 45vw;
                 }
             /* END VIDEO MASTER */
+
+
+            /* CLIENTS MASTER */
+                #masterClients{
+                    width: 80vw;
+                    height: 140vw;
+                }
+
+                    #masterClients .clientsBox, #client14{
+                        width: 20vw !important;
+                        height: 20vw !important;
+
+                    }
+                    #masterClients #client1, #masterClients #client12{
+                        width: 40vw !important;
+                    }
+
+                        #client14 img{
+                            width: 80% !important;
+                        }
+            /* END CLIENTS MASTER */
         }
 
         /*///// PORTRAIT SPECIAL TABLET STYLING /////*/
@@ -2122,6 +2194,23 @@ body{
                     bottom: 10% !important;
                 }
             /* END VIDEO MASTER */
+
+            /* CLIENTS MASTER */
+                #masterClients{
+                    width: 80vw;
+                    height: 1000vw;
+                    top: 100px;
+                    margin-bottom: 100px;
+                }
+
+                    #masterClients .clientsBox{
+                        width: 80vw !important;
+                        height: 40vw !important;
+                    }
+                        #masterClients .clientsBox img{
+                            width: 90% !important;
+                        }
+            /* END CLIENTS MASTER */
 
 
             /* HELPERS */
